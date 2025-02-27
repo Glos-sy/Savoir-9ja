@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: yellow; */
+}
+
+
+/* MIAN STYLING */
+.new-trip i {
+    font-size: 1.4rem;
+    position: relative;
+    right: -6.8rem;
+    top: 0.7rem;
+}

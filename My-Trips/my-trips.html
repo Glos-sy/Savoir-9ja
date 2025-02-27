@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Trips</title>
+    <link rel="shortcut icon" href="../Media/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../My-Trips/my-trips-desktop.css" />
+    <link
+      rel="stylesheet"
+      href="../My-Trips/my-trips-tablet.css"
+      media="(max-width: 1024px)"
+    />
+    <link
+      rel="stylesheet"
+      href="../My-Trips/my-trips-tablet-a.css"
+      media="(max-width: 957px)"
+    />
+    <link
+      rel="stylesheet"
+      href="../My-Trips/my-trips-tablet-b.css"
+      media="(max-width: 835px)"
+    />
+    <link
+      rel="stylesheet"
+      href="../My-Trips/my-trips-tablet-c.css"
+      media="(max-width: 755px)"
+    />
+    <link
+      rel="stylesheet"
+      href="../My-Trips/my-trips-tablet-d.css"
+      media="(max-width: 610px)"
+    />
+    <link
+      rel="stylesheet"
+      href="../My-Trips/my-trips-mobile.css"
+      media="(max-width: 500px)"
+    />
+    <link
+      rel="stylesheet"
+      href="../My-Trips/my-trips-mobile-a.css"
+      media="(max-width: 441px)"
+    />
+    <link
+      rel="stylesheet"
+      href="../My-Trips/my-trips-mobile-b.css"
+      media="(max-width: 375px)"
+    />
+    <link
+      rel="stylesheet"
+      href="../My-Trips/my-trips-mobile-c.css"
+      media="(max-width: 341px)"
+    />
+    <!--  341 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <img src="../Media/nigeriaHero.png" alt="" />
+    </header>
+
+    <main>
+      <nav class="nav-one">
+        <ul>
+          <li class="active-li active">
+            <a href="" class="active-li">Plan Trip</a>
+          </li>
+          <li class="inactive">
+            <a href="" class="inactive-a">Food and Dining</a>
+          </li>
+          <li class="inactive">
+            <a href="" class="inactive-a">Accommodations</a>
+          </li>
+          <li class="inactive">
+            <a href="" class="inactive-a">Interactive Map</a>
+          </li>
+          <li class="inactive"><a href="" class="inactive-a">Wishlist</a></li>
+        </ul>
+      </nav>
+
+      <nav class="nav-two">
+        <ul>
+          <li><a href="" class="faded-li">Add New Trip</a></li>
+          <li><a href="" class="faded-li">Events</a></li>
+          <li><a href="" class="solid-li">My Trip</a></li>
+        </ul>
+      </nav>
+
+      <section id="my-trips-main">
+        <div class="btns">
+          <input type="button" value="Active Trips" class="active-btn" />
+          <input
+            type="button"
+            value="Cancelled Trips"
+            class="transparent-bkg"
+          />
+          <input
+            type="button"
+            value="Completed Trips"
+            class="transparent-bkg"
+          />
+        </div>
+        <div class="new-trip">
+          <i class="fa-solid fa-plus"></i>
+          <input type="button" value="Create a new trip" />
+        </div>
+
+        <div class="trip-option a">
+          <img src="../Media/landmark 6.png" alt="" />
+          <div class="a-txt">
+            <div class="header-a">
+              <h1>Beachcation</h1>
+              <i class="fa-solid fa-ellipsis"></i>
+            </div>
+            <div class="date-a">
+              <i class="fa-regular fa-calendar"></i>
+              <p>Feb 27 - Mar 5, 2025</p>
+            </div>
+            <div class="location-a">
+              <i class="fa-solid fa-location-dot"></i>
+              <p>Lagos</p>
+            </div>
+            <div class="disclaimer-a">
+              <i class="fa-solid fa-info"></i>
+              <p class="alert">Your trip is in 20 days</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="trip-option b">
+          <img src="../Media/image 55.png" alt="" />
+          <div class="b-txt">
+            <div class="header-b">
+              <h1>Abuja for 7days</h1>
+              <i class="fa-solid fa-ellipsis"></i>
+            </div>
+            <div class="date-b">
+              <i class="fa-regular fa-calendar"></i>
+              <p>Feb 27 - Mar 5, 2025</p>
+            </div>
+            <div class="location-b">
+              <i class="fa-solid fa-location-dot"></i>
+              <p>Abuja</p>
+            </div>
+            <div class="disclaimer-b">
+              <i class="fa-solid fa-info"></i>
+              <p class="alert">Your trip is in 20 days</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="trip-option c">
+          <img src="../Media/landmark 6.png" alt="" />
+          <div class="c-txt">
+            <div class="header-c">
+              <h1>Beachcation</h1>
+              <i class="fa-solid fa-ellipsis"></i>
+            </div>
+            <div class="date-c">
+              <i class="fa-regular fa-calendar"></i>
+              <p id="p">Feb 27 - Mar 5, 2025</p>
+            </div>
+            <div class="location-c">
+              <i class="fa-solid fa-location-dot"></i>
+              <p id="p">Lagos</p>
+            </div>
+            <div class="disclaimer-c">
+              <i class="fa-solid fa-info"></i>
+              <p class="alert">Your trip is in 20 days</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

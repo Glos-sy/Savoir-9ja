@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: yellow; */
+}
+
+
+/* MAIN STYLING */
+.inactive {
+    display: none;
+}
+
+#my-trips-main .btns input {
+    padding: 2% 4%;
+    font-size: 1.6rem;
+    border-radius: 20rem;
+    border: none;
+}

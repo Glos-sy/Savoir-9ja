@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: yellow; */
+}
+
+/* MAIN STYLING */
+.nav-one li {
+    padding: 1.1% 2.3%;
+    border-radius: 20rem;
+}
+
+.nav-one {
+    width: 100%;
+    margin: 3% 0 5%;
+}
+
+.nav-two {
+    width: 40%;
+    margin: 5% 2%;
+}
+
+/* MAIN TRIPS SECTION STYLING */
+#my-trips-main {
+    width: 75%;
+    margin: 1% auto 7%;
+    padding: 2% 1.7% 5%;
+    /* background-color: ; */
+    /* border: 1px solid black; */
+}
+
+#my-trips-main .btns {
+    width: 100%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    margin: 2% 0 4%;
+}

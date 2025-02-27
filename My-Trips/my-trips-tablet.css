@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: yellow; */
+}
+
+
+/* MAIN SECTION STYLING */
+.nav-one {
+    width: 85%;
+    margin: 3% 0 5%;
+}
+
+.nav-two {
+    width: 35%;
+    margin: 5% 2%;
+}
+
+.new-trip input {
+    width: 36%;
+    margin: 1% 0 3%;
+    padding: 2% 3% 2% 5%;
+    border: 2px solid black;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.55rem;
+    background-color: transparent;
+    border: 1px solid #EAEAEA;
+}
+
+.new-trip i {
+    font-size: 1.4rem;
+    position: relative;
+    right: -2.6rem;
+}
+
+.header-a h1, .header-b h1, .header-c h1 {
+    font-size: 1.8rem;
+    margin: 0;
+}

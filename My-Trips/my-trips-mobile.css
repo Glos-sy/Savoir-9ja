@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: yellow; */
+}
+
+
+
+/* MAIN TRIPS SECTION STYLING */
+.nav-two {
+    margin: 7.5% 2%;
+    width: 65%;
+}
+
+#my-trips-main {
+    width: 95%;
+    margin-top: 10%;
+    padding: 3%;
+}
+
+.new-trip input {
+    width: 40%;
+}
+
+#my-trips-main .btns input {
+    padding: 2% 3.5%;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.new-trip input {
+    width: 50%;
+}
+
+.trip-option {
+    height: 13rem;
+}
+
+.trip-option img {
+    width: 55%;
+}
+
+.a-txt, .b-txt, .c-txt {
+    width: 41%;
+}
+
+.header-a h1, .header-b h1, .header-c h1 {
+    font-size: 1.6rem;
+    margin: 1% 0 4%;
+}
+
+.trip-option i {
+    font-size: 1.2rem;
+}
+
+.trip-option .alert {
+    margin: 8% 3% 0;
+}
+
+.disclaimer-a .fa-info, .disclaimer-b .fa-info, .disclaimer-c .fa-info {
+    position: relative;
+    top: 0.5rem;
+}
+
+.trip-option p, .trip-option p, .trip-option p {
+    margin: 1% 6%;
+}

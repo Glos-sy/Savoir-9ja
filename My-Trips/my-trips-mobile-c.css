@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: yellow; */
+}
+
+
+/* MIAN STYLING */
+.nav-two {
+    width: 92%;
+    margin: 5% auto;
+}
+
+.new-trip i {
+    font-size: 1.4rem;
+    position: relative;
+    right: -3.5rem;
+    top: 0.59rem;
+}
+
+.new-trip input {
+    width: 90%;
+}
+
+.header-a h1, .header-b h1, .header-c h1 {
+    font-size: 1.4rem;
+    margin: 3% 0;
+}
+
+.trip-option p, .trip-option p, .trip-option p {
+    font-size: 1.07rem;
+    margin: 1% 6%;
+}
+
+.header-a i, .header-b i, .header-c i {
+    font-size: 1.4rem;
+}
+
+.trip-option .alert {
+    font-size: 1rem;
+    margin: 11% 5% 0;
+}
+
+/* .disclaimer-a .fa-info, .disclaimer-b .fa-info, .disclaimer-c .fa-info {
+    position: relative;
+    top: 0.7rem;
+} */
