@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk", serif;
+    /* background-color: yellow; */
+}
+
+/* HEADER STYLING */
+header img {
+    width: 100%;
+    height: 20rem;
+}
+
+header .overlay {
+    width: 100%;
+    height: 20rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: white;
+    margin: 0 auto;
+    position: absolute;
+    top: 65%;
+    right: 5.5%;
+}
+
+
+/* TRADITIONAL FESTIVALS SECTION STYLING */
+#traditional-festivals .festivals-img img {
+    width: 95%;
+    height: 35rem;
+    margin: 4% 0;
+}
+
+
+/* ARTS AND CULTURE SECTION STYLING */
+#arts-culture .arts-culture-img img {
+    margin: 4% 0;
+    width: 68%;
+    height: 33rem;
+    position: relative;
+    right: -5rem;
+}

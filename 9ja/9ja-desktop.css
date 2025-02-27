@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #2B2B2B;
+    font-family: "Hanken Grotesk", serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* HEADER STYLING */
+header {
+    position: relative;
+}
+
+
+header img {
+    width: 100%;
+    height: 45rem;
+}
+
+header .overlay {
+    width: 100%;
+    height: 45rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+}
+
+header h1 {
+    font-size: 6rem;
+    color: white;
+    position: absolute;
+    top: 50%;
+    right: 15%;
+}
+
+
+/* MAIN STYLING */
+nav {
+    margin: 3% 5% 5%;
+    width: 70%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    list-style-type: none;
+    padding: 1.5% 2.3%;
+    border-radius: 30px;
+}
+
+nav li:hover {
+    background-color: #193028;
+}
+
+nav a:hover {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+
+
+/* ETHNIC GROUPS SECTION */
+#ethnic-groups {
+    margin: 1% 5%;
+}
+
+#ethnic-groups .e-g-one {
+    margin: 7% 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#ethnic-groups .e-g-one img {
+    width: 100%;
+    margin: 2.5% 0;
+}
+
+#ethnic-groups .e-g-one h3, #ethnic-groups .e-g-two h3 {
+    font-size: 1.8rem;
+}
+
+.ethnic-groups-txt {
+    margin: 2% 0;
+    width: 60%;
+}
+
+.ethnic-groups-txt h2 {
+    font-size: 3rem;
+    margin: 3% 0;
+}
+
+.ethnic-groups-txt p {
+    font-size: 1.8rem;
+}
+
+.ethnic-groups-img {
+    width: 32%;
+}
+
+#ethnic-groups .e-g-two {
+    width: 104%;
+    margin: 3% auto 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#ethnic-groups .e-g-two div {
+    width: 33%;
+}
+
+#ethnic-groups .e-g-two img {
+    width: 90%;
+    margin: 2.5% 0;
+}
+
+
+/* TRADITIONAL FESTIVALS SECTION STYLING */
+#traditional-festivals, #arts-culture {
+    width: 100%;
+}
+
+#traditional-festivals .festivals-txt, #arts-culture .arts-culture-txt {
+    background-color: #193028;
+    padding: 2% 4% 4.5%;
+}
+
+#traditional-festivals .festivals-txt h3, #arts-culture .arts-culture-txt h3 {
+    font-size: 2.5rem;
+    margin: 2% 0;
+    text-align: center;
+    color: #eebe0d;
+}
+
+#traditional-festivals .festivals-txt p, #arts-culture .arts-culture-txt p {
+    font-size: 1.6rem;
+    color: white;
+}
+
+#traditional-festivals .festivals-img {
+    width: 92%;
+    margin: 5% auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#traditional-festivals .festivals-img div {
+    width: 22.5%;
+}
+
+#traditional-festivals .festivals-img img {
+    width: 99%;
+    height: 28rem;
+    margin: 4% 0;
+}
+
+#traditional-festivals .festivals-img p {
+    font-size: 1.8rem;
+    width: 90%;
+    margin: 1% auto;
+}
+
+#festival-link {
+    width: 92%;
+    margin: 1% auto;
+    display: flex;
+    justify-content: end;
+    color: #193028;
+}
+
+
+/* ARTS AND CULTURE SECTION STYLING */
+#arts-culture .arts-culture-txt {
+    margin: 4% 0;
+}
+
+#arts-culture .arts-culture-img {
+    position: relative;
+    width: 95%;
+    margin: 1% auto 3.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#arts-culture .arts-culture-img div {
+    width: 23%;
+}
+
+#arts-culture .arts-culture-img img {
+    margin: 4% 0;
+    width: 87%;
+    height: 24rem;
+}
+
+#arts-culture .arts-culture-img h3 {
+    font-size: 1.8rem;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    right: 1.4rem;
+}
+
+#culture-link {
+    margin: 2.5% auto;
+    width: 92%;
+    display: flex;
+    justify-content: end;
+    color: #193028;
+}
