@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk", serif;
+    /* background-color: yellow; */
+}
+
+/* LAGOS SECTION */
+#lagos input {
+    padding: 3% 6% 3% 8%;
+    width: 90%;
+    border-radius: 30px;
+    margin: -0.2rem 5% 1.5rem;
+    font-size: 1rem;
+}
+
+th {
+    width: 31%;
+    background-color: #193028;
+    color: white;
+    font-size: 1rem;
+}
+
+td {
+    font-size: 0.9rem;
+}

@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk", serif;
+    /* background-color: yellow; */
+}
+
+/* HEADER STYLING */
+header img {
+    width: 100%;
+    height: 11rem;
+    position: relative;
+}
+
+header .overlay {
+    width: 100%;
+    height: 11rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+}
+
+/* MAIN STYLING */
+main {
+    width: 93%;
+    margin: 1rem auto;
+}
+
+
+/* TEXT OVERLAY */
+.txt-lagos h1 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: white;
+    position: absolute;
+    top: 12.8%;
+    right: 23%;
+}
+
+
+/* LAGOS SECTION */
+#lagos p {
+    font-size: 1rem;
+}
+#lagos input {
+    width: 95%;
+    margin: -1rem auto 1rem;
+}
+
+#lagos h1 {
+    font-size: 2rem;
+    margin: 0 0 0.3rem;
+}
