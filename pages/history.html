@@ -11,15 +11,51 @@
     </head>
 <body>
     <div class="hero flex-box">
-        <header></header>
+        <header class="pages">
+            <div class="nav-section flex-box">
+                <div class="logo flex-box">
+                    <img src="../img/game-icons_nigeria.png" alt="Savoir 9ja Logo">
+                    <p>Savoir 9ja</p>
+                </div>
+                <nav class="nav-links flex-box">
+                    <a href="../index.html">Home</a>
+                    <a href="">Attractions</a>
+                    <a href="./history.html" class="nav-active">9JA</a>
+                    <a href="./reviews.html">Reviews</a>
+                    <a href="">More</a>
+                </nav>
+                <div class="nav-btn flex-box">
+                    <a href="#" style="font-weight: bold; display: inline-block;">Explore Now <i>↗</i></a>
+                </div> 
+            </div>
+
+        </header>
 
         <div class="title flex-box">
             <h2>The History of Nigeria</h2>
         </div>
     </div>
-    <div class="nav-section flex-box">
+    <div class="home-burger flex-box">
+        <div class="mini-logo flex-box">
+            <img src="../img/game-icons_nigeria.png" class="mini-logo"/><span>Savoir 9ja</span>
+        </div>
+            <i class="fa-solid fa-bars"></i>    
+    </div>
+    <div class="burger-section hide flex-box">
+        <div class="nav-links flex-box">
+            <a href="">Home</a>
+            <a href="">Attractions</a>
+            <a href="" class="burger-active">9JA</a>
+            <a href="">Reviews</a>
+            <a href="">More</a>
+        </div>
+        <div class="nav-btn flex-box">
+            <a href="#" style="font-weight: bold; display: inline-block;">Explore Now <i>↗</i></a>
+        </div> 
+    </div>
+    <div class="mid-nav-section flex-box">
         <div class="nav-menu flex-box">
-            <a href="" class="active">History</a>
+            <a href="" class="mid-active">History</a>
             <a href="">Cultural Insights</a>
             <a href="">Language Guide</a>
             <a href="">Safety Tips</a>
@@ -103,5 +139,6 @@
         </div>
     </div>
     </div>
+    <script src="../js/nav.js"></script>
 </body>
 </html>

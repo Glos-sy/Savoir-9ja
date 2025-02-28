@@ -8,8 +8,8 @@ document.body.appendChild(mobileMenu);
 
 if(screenSize <= 500) {
     navBar.style.display = 'none';
-    burgerBox.innerHTML = `<div><img src="../img/game-icons_nigeria.png" class="mini-logo"/><span>Savoir 9ja</span></div><i class="fa-solid fa-bars"></i>`;
-    header.appendChild(burgerBox);
+    // burgerBox.innerHTML = `<div><img src="../img/game-icons_nigeria.png" class="mini-logo"/><span>Savoir 9ja</span></div><i class="fa-solid fa-bars"></i>`;
+    // header.appendChild(burgerBox);
 }
 const burgerBtn = document.querySelector('.fa-bars');
 burgerBtn.addEventListener('click', ()=>{

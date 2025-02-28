@@ -31,6 +31,10 @@ body {
 .flex-box {
     display: flex;
 }
+.hero {
+    flex-direction: column;
+    align-items: center;
+}
 .hotel-title {
     flex-direction: column;
     justify-content: center;

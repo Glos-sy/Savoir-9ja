@@ -11,19 +11,54 @@
     </head>
 <body>
     <div class="hero flex-box">
-        <header></header>
+        <header class="pages">
+            <div class="nav-section flex-box">
+                <div class="logo flex-box">
+                    <img src="../img/game-icons_nigeria.png" alt="Savoir 9ja Logo">
+                    <p>Savoir 9ja</p>
+                </div>
+                <nav class="nav-links flex-box">
+                    <a href="../index.html">Home</a>
+                    <a href="">Attractions</a>
+                    <a href="./history.html">9JA</a>
+                    <a href="./reviews.html">Reviews</a>
+                    <a href="">More</a>
+                </nav>
+                <div class="nav-btn flex-box">
+                    <a href="#" style="font-weight: bold; display: inline-block;">Explore Now <i>↗</i></a>
+                </div> 
+            </div>
+        </header> 
+        <div class="home-burger flex-box">
+            <div class="mini-logo flex-box">
+                <img src="../img/game-icons_nigeria.png" class="mini-logo"/><span>Savoir 9ja</span>
+            </div>
+                <i class="fa-solid fa-bars"></i>    
+        </div>   
+        <div class="burger-section hide flex-box">
+            <div class="nav-links flex-box">
+                <a href="">Home</a>
+                <a href="">Attractions</a>
+                <a href="">9JA</a>
+                <a href="" >Reviews</a>
+                <a href="" class="burger-active">More</a>
+            </div>
+            <div class="nav-btn flex-box">
+                <a href="#" style="font-weight: bold; display: inline-block;">Explore Now <i>↗</i></a>
+            </div> 
+        </div>
 
         <div class="title flex-box">
             <h2>Interactive Map</h2>
             <p>Navigate through Nigeria with our user-friendly interactive map.</p>
         </div>
     </div>
-    <div class="nav-section flex-box">
+    <div class="mid-nav-section flex-box">
         <div class="nav-menu flex-box">
             <a href="">Plan Trip</a>
             <a href="">Food And Dining</a>
             <a href="">Accomodations</a>
-            <a href="">Interactive Map</a>
+            <a href="" class="mid-active">Interactive Map</a>
             <a href="">Wishlist</a>
         </div>
     </div>
@@ -58,7 +93,7 @@
             </div>
 
             <div class="map-nav flex-box">
-                <div class="nav-menu flex-box">
+                <div class="sub-nav-menu flex-box">
                     <a href="">Recently Viewed</a>
                     <a href="">Restaurant</a>
                     <a href="">Coffee</a>
@@ -116,6 +151,6 @@
         <div class="map-icons flex-box"></div>
     </div>
 
-
+    <script src="../js/nav.js"></script>
 </body>
 </html>

@@ -55,23 +55,28 @@ header {
 .hero .search input:active {
     border: 0.1rem solid var(--black);
 }
-.nav-section {
+.mid-nav-section .nav-section {
     padding: 2rem 3rem;
     justify-content: flex-start;
 }
-.nav-menu {
+.mid-nav-section .nav-menu {
+    margin: 0.5rem 0;
     width: 80%;
     justify-content: space-around;
 }
-.nav-menu a{
+.mid-nav-section .nav-menu a{
     font-size: 1.5rem;
     text-decoration: none;
     color: var(--sub-text);
     border-radius: 2rem;
     padding: 1rem 1.5rem;
 }
-.nav-menu a:active,
-.nav-menu a:hover {
+.mid-nav-section .nav-menu a.mid-active {
+    background-color: var(--landmark-green);
+    color: var(--base-white);
+}
+.mid-nav-section .nav-menu a:active,
+.mid-nav-section .nav-menu a:hover {
     color: var(--base-white);
     background-color: var(--ng-green);
 }
@@ -245,10 +250,10 @@ h3 {
     .street-foods-content {
         justify-content: center;
     }
-    .nav-menu {
+    .mid-nav-section .nav-menu {
         flex-wrap: wrap;
     }
-    .nav-menu a {
+    .mid-nav-section .nav-menu a {
         flex: 1 1 none;
     }
     .top-spots-contents .top-spots {
@@ -299,7 +304,7 @@ h3 {
     .street-foods-content {
         justify-content: space-around;
     }
-    .nav-menu a {
+    .mid-nav-section .nav-menu a {
         flex: 1 1 none;
     }
     .top-spots-contents .top-spots {
