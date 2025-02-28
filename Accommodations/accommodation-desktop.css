@@ -133,6 +133,9 @@ nav ul {
     border-bottom: 3.5px solid #e9ba05;
 }
 
+.search i {
+    font-size: 2rem;
+}
 
 
 /* ACCOMMODATION SECTION STYLING */
