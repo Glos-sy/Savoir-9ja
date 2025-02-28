@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Hanken Grotesk", serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* #8a623f(brownish-orange
+#2d483f(darkgreen) */
+
+/* HEADER STYLING */
+header img {
+  width: 100%;
+}
+
+/* MAIN SECTION STYLING */
+/* NAV STYLING */
+nav {
+  width: 65%;
+  margin: 3% 5%;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  list-style-type: none;
+  padding: 2%;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #2B2B2B;
+}
+
+/* OVERVIEW SECTION STYLING */
+#overview {
+  text-align: center;
+  width: 90%;
+  margin: 1% auto 7%;
+}
+
+#overview h1 {
+  font-size: 7rem;
+  margin: 0.5% auto;
+  color: #183029;
+}
+
+#overview h2 {
+  font-size: 2.7rem;
+  margin: 1% auto;
+  color: #183029;
+}
+
+/* MAPS SECTION STYLING */
+#maps {
+  margin: 1% 4% -45%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#maps h3 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+#maps p {
+  font-size: 1.8rem;
+  width: 29%;
+}
+
+.first-map,
+.second-map,
+.second-map {
+  position: relative;
+}
+
+#maps img {
+  width: 40%;
+}
+
+#maps .first-map-txt,
+#maps .second-map-txt,
+#maps .third-map-txt {
+  background-color: #2d483f;
+  color: white;
+  width: 27%;
+  padding: 1.7% 2.5%;
+  margin: 2.3% 0;
+  border-radius: 10px;
+}
+
+#maps .first-map-img p {
+  position: absolute;
+  top: 49%;
+  right: 64.5%;
+}
+
+#maps .second-map {
+  position: relative;
+  top: -32rem;
+  right: -37rem;
+}
+
+#maps .second-map-txt {
+  position: relative;
+  right: -14rem;
+}
+
+#maps .second-map-img p {
+  position: absolute;
+  top: 49%;
+  right: 64.5%;
+}
+
+#three {
+  position: relative;
+  top: -65rem;
+  right: -75rem;
+}
+
+#three .third-map-txt {
+  position: relative;
+  right: -14rem;
+}
+
+#three p {
+  position: absolute;
+  top: 28rem;
+  left: 7rem;
+}
+
+/* APPLICATION-STEPS SECTION */
+#application-steps {
+  width: 89%;
+  margin: 0 auto 5%;
+}
+
+#application-steps .application-steps-txt {
+  text-align: center;
+  margin: 1% 0 4.5%;
+}
+
+#application-steps .application-steps-txt h2,
+#navigating-challenges h2 {
+  font-size: 3.5rem;
+  font-weight: 500;
+  margin: 1% auto;
+}
+
+#application-steps .application-steps-txt p,
+#navigating-challenges p {
+  font-size: 1.8rem;
+  margin: 1% auto;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* #8a623f */
+.steps .submit-step {
+  background-color: #8a623f;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+}
+
+.steps div {
+  width: 31%;
+  padding: 5% 2%;
+  color: white;
+}
+
+.steps div h3 {
+  font-size: 2.3rem;
+  margin: 5% 0;
+  text-align: center;
+}
+
+.steps div p {
+  font-size: 1.6rem;
+}
+
+.steps .document-step,
+.steps .track-step {
+  background-color: #2d483f;
+}
+
+.steps .document-step {
+  border-top-right-radius: 60px;
+}
+
+.steps .track-step {
+  border-top-left-radius: 60px;
+}
+
+/* NAVIGATING CHALLENGES SECTION */
+#navigating-challenges {
+  width: 88%;
+  margin: 0 auto 5%;
+  /* margin-bottom: 5%; */
+}
+
+#navigating-challenges img {
+  width: 100%;
+  height: 35rem;
+}
+
+#navigating-challenges .challenges-txt {
+  text-align: center;
+  margin: 7% auto 3%;
+}
+
+#navigating-challenges .challenges {
+  display: flex;
+  justify-content: space-between;
+}
+
+#navigating-challenges .challenges div {
+  width: 31%;
+}

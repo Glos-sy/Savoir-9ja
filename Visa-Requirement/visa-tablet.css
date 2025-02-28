@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk", serif;
+    /* background-color: yellow; */
+}
+
+
+/* MAIN SECTION STYLING */
+/* NAV STYLING */
+nav {
+    width: 80%;
+    margin: 3% 5%;
+}
+
+
+/* MAPS SECTION STYLING */
+#maps .second-map {
+    position: relative;
+    top: -32rem;
+    right: -33rem;
+}
+
+#maps .first-map-txt,
+#maps .second-map-txt,
+#maps .third-map-txt {
+  background-color: #2d483f;
+  color: white;
+  width: 28%;
+}
+
+#maps p {
+    font-size: 1.9rem;
+    width: 29%;
+}
+
+#maps .first-map-img p {
+    position: absolute;
+    top: 49%;
+    right: 62%;
+}
+
+#maps .second-map-img p {
+    position: absolute;
+    top: 45%;
+    right: 62%;
+}
+
+
+/* APPLICATION-STEPS SECTION */
+#application-steps .application-steps-txt h2,
+#navigating-challenges h2 {
+  font-size: 3.3rem;
+  font-weight: 500;
+  margin: 1% auto;
+}
+
+#application-steps .application-steps-txt p,
+#navigating-challenges p {
+  font-size: 1.7rem;
+  margin: 1% auto;
+}
+
+.steps div {
+  width: 32%;
+  padding: 5% 2%;
+  color: white;
+}
+
+
+/* NAVIGATING CHALLENGES SECTION */
+#navigating-challenges img {
+  width: 100%;
+  height: 30rem;
+}

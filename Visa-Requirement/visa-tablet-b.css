@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk", serif;
+    /* background-color: yellow; */
+}
+
+
+/* MAIN SECTION STYLING */
+/* NAV STYLING */
+nav {
+    width: 100%;
+    margin: 3%;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #2B2B2B;
+}
+
+.inactive {
+    display: none;
+}
+
+/* OVERVIEW SECTION STYLING */
+#overview {
+    text-align: center;
+    width: 90%;
+    margin: 1% auto 7%;
+}
+
+#overview h1 {
+    font-size: 5rem;
+    margin: 4% auto 3%;
+}
+
+#overview h2 {
+    font-size: 2.3rem;
+    margin: 1% auto;
+}
+
+/* MAPS SECTION STYLING */
+#maps {
+    align-items: center;
+}
+
+#maps img {
+    width: 100%;
+    margin: 3% auto 13%
+}
+
+#maps .second-map {
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+#three {
+    display: block;
+    top: 0rem;
+    right: 8.9rem;
+}
+
+#three p {
+    position: absolute;
+    top: 20rem;
+    left: 8rem;
+}
+
+#three .third-map-txt {
+    position: relative;
+    right: 0rem;
+}
+
+#maps p {
+    font-size: 2rem;
+    width: 70%;
+}
+
+#maps .first-map-img {
+    position: relative;
+    right: 4rem;
+}
+
+#maps .first-map-img p {
+    position: absolute;
+    right: 7.8rem;
+    top: 13.5rem;
+}
+
+#maps .first-map-txt,
+#maps .second-map-txt,
+#maps .third-map-txt {
+  background-color: #2d483f;
+  color: white;
+  width: 80%;
+  padding: 1.7% 2.5%;
+  display: block;
+  margin: 2% auto;
+  border-radius: 10px;
+}
+
+#maps .first-map-txt {
+    position: relative;
+    right: 4rem;
+}
+
+#maps .second-map-img {
+    position: relative;
+    right: 8.9rem;
+}
+
+#maps .second-map-txt {
+    position: relative;
+    right: 8.5rem;
+}
+
+#maps .second-map-img p {
+    position: absolute;
+    top: 22%;
+    right: 15%;
+}
+
+
+/* APPLICATION-STEPS SECTION */
+#application-steps {
+    width: 94%;
+    margin: 20rem auto 5%;
+}
+
+.steps div {
+    width: 31.5%;
+    padding: 3% 2%;
+    color: white;
+}
+
+.steps div h3 {
+    font-size: 2.1rem;
+    margin: 5% 0;
+    text-align: center;
+}
+
+.steps div p {
+    font-size: 1.4rem;
+}
+
+
+/* NAVIGATING CHALLENGES SECTION */
+#navigating-challenges {
+    width: 94%;
+    margin: 9% auto 5%;
+}
+
+
+#navigating-challenges img {
+    width: 100%;
+    height: 24rem;
+}
+
+#navigating-challenges .challenges div {
+    width: 32%;
+}

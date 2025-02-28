@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk", serif;
+    /* background-color: yellow; */
+}
+
+/* HEADER STYLING */
+header img {
+    width: 100%;
+    height: 24rem;
+}
+
+
+/* OVERVIEW SECTION STYLING */
+#overview {
+    text-align: center;
+    width: 90%;
+    margin: 1% auto 7%;
+}
+
+#overview h1 {
+    font-size: 4rem;
+    margin: 0.5% auto;
+}
+
+#overview h2 {
+    font-size: 2rem;
+    margin: 2% auto;
+}
+
+
+/* MAPS SECTION STYLING */
+#maps p {
+    font-size: 1.8rem;
+    width: 70%;
+}
+
+#maps .first-map-img p {
+    position: absolute;
+    right: 7rem;
+    top: 11.5rem;
+}
+
+#maps .second-map-img p {
+    position: absolute;
+    top: 25%;
+    right: 15%;
+}
+
+#three p {
+    position: absolute;
+    top: 20rem;
+    left: 7rem;
+}
+
+
+/* APPLICATION-STEPS SECTION */
+.steps {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.steps div {
+    width: 90%;
+    padding: 5% 4% 7%;
+    text-align: center;
+    color: white;
+    border-radius: 60px;
+    margin: 5% auto;
+}
+
+.steps div h3 {
+    font-size: 2.5rem;
+    margin: 3% 0;
+    text-align: center;
+}
+
+.steps div p {
+    font-size: 1.8rem;
+}
+
+
+/* NAVIGATING CHALLENGES SECTION */
+#navigating-challenges .challenges {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#navigating-challenges .challenges div {
+    width: 90%;
+    margin: 2% auto;
+}
+
+#navigating-challenges img {
+    width: 100%;
+    height: 42rem;
+}

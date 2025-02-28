@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk", serif;
+    /* background-color: yellow; */
+}
+
+
+
+/* MAIN SECTION STYLING */
+/* NAV STYLING */
+nav {
+    width: 90%;
+    margin: 3% 5%;
+}
+
+/* MAPS SECTION STYLING */
+#maps .second-map {
+    position: relative;
+    top: -32rem;
+    right: -28rem;
+}
+
+#maps .first-map-txt,
+#maps .second-map-txt,
+#maps .third-map-txt {
+  background-color: #2d483f;
+  color: white;
+  width: 38%;
+}
+
+#maps .second-map-txt {
+    position: relative;
+    right: -8rem;
+  }
+
+#maps p {
+    font-size: 1.63rem;
+    width: 29%;
+}
+
+#maps .first-map-img p {
+    position: absolute;
+    top: 45%;
+    right: 62%;
+}
+
+#maps .second-map {
+    position: relative;
+    top: -32rem;
+    right: -37rem;
+}
+
+#maps .second-map-img p {
+    position: absolute;
+    top: 45%;
+}
+
+
+
+/* APPLICATION-STEPS SECTION */
+#application-steps {
+    width: 94%;
+    margin: 0 auto 5%;
+}
+
+#application-steps .application-steps-txt h2,
+#navigating-challenges h2 {
+  font-size: 3.3rem;
+  font-weight: 500;
+  margin: 1% auto;
+}
+
+#application-steps .application-steps-txt p,
+#navigating-challenges p {
+  font-size: 1.8rem;
+  margin: 1% auto;
+}
+
+.steps div h3 {
+    font-size: 2.1rem;
+    margin: 5% 0;
+    text-align: center;
+}
+
+.steps div p {
+    font-size: 1.5rem;
+}
+
+/* NAVIGATING CHALLENGES SECTION */
+#navigating-challenges img {
+    width: 100%;
+    height: 25rem;
+}

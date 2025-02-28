@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk", serif;
+    /* background-color: yellow; */
+}
+
+
+/* MAIN STYLING */
+#three {
+    display: none;
+}
+
+#maps {
+    margin: 1% 4% -20%;
+    right: -10rem;
+}
+
+#maps img {
+    width: 50%;
+}
+
+#maps p {
+    font-size: 2rem;
+    width: 35%;
+}
+
+#maps .first-map {
+    position: relative;
+    right: 5rem;
+}
+
+#maps .first-map-img p {
+    position: absolute;
+    top: 49%;
+    right: 58%;
+}
+
+#maps .second-map-img p {
+    position: absolute;
+    top: 49%;
+    right: 58%;
+}
+
+#maps .first-map-txt,
+#maps .second-map-txt,
+#maps .third-map-txt {
+  background-color: #2d483f;
+  color: white;
+  width: 33%;
+}
+
+#maps .first-map-txt {
+    position: relative;
+    right: -7rem;
+}

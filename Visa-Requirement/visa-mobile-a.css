@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk", serif;
+    /* background-color: yellow; */
+}
+
+
+/* HEADER STYLING */
+header img {
+    width: 100%;
+    height: 20rem;
+}
+
+/* OVERVIEW SECTION STYLING */
+#overview {
+    text-align: center;
+    width: 90%;
+    margin: 1% auto 7%;
+}
+
+#overview h1 {
+    font-size: 3rem;
+    margin: 3% auto 0.5%;
+}
+
+#overview h2 {
+    font-size: 1.7rem;
+}
+
+
+/* MAPS SECTION STYLING */
+#maps p {
+    font-size: 1.5rem;
+    width: 70%;
+}
+
+#maps .first-map-img p {
+    position: absolute;
+    top: 26%;
+    right: 5.5rem;
+}
+
+#three p {
+    position: absolute;
+    top: 16.5rem;
+    left: 5rem;
+}
+
+
+/* APPLICATION-STEPS SECTION */
+#application-steps .application-steps-txt h2,
+#navigating-challenges h2 {
+  font-size: 2.6rem;
+  font-weight: 500;
+  margin: 2% auto 2%;
+}
+
+#application-steps .application-steps-txt p,
+#navigating-challenges p {
+  font-size: 1.7rem;
+  margin: 1% auto 3%;
+}
+
+.steps div {
+    width: 94%;
+    padding: 5% 4% 7%;
+    text-align: center;
+    color: white;
+    border-radius: 60px;
+    margin: 5% auto;
+}
+
+.steps div h3 {
+    font-size: 2.2rem;
+    margin: 3% 0;
+    text-align: center;
+}
+
+.steps div p {
+    font-size: 1.6rem;
+}
+
+
+/* NAVIGATING CHALLENGES SECTION */
+#navigating-challenges img {
+    width: 100%;
+    height: 35rem;
+}
