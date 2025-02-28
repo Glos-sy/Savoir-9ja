@@ -64,7 +64,13 @@ nav a {
     color: #2B2B2B;
 }
 
-nav a:hover, nav li:hover {
+nav .inactive a:hover, .inactive:hover {
+    background-color: #2d483f;
+    color: white;
+    border-radius: 30px;
+}
+
+.active a, .active {
     background-color: #2d483f;
     color: white;
     border-radius: 30px;
@@ -135,7 +141,7 @@ nav a:hover, nav li:hover {
     color: white;
     width: 65%;
     position: absolute;
-    top: 42%;
+    top: 38%;
     right: 18%;
 }
 
@@ -160,7 +166,7 @@ nav a:hover, nav li:hover {
     color: white;
     width: 65%;
     position: absolute;
-    top: 42%;
+    top: 38%;
     right: 16%;
 }
 
@@ -182,8 +188,8 @@ nav a:hover, nav li:hover {
     color: white;
     width: 65%;
     position: absolute;
-    top: 44%;
-    right: 13.6%;
+    top: 41%;
+    right: 18%;
 }
 
 .poly-e {
@@ -196,8 +202,8 @@ nav a:hover, nav li:hover {
     color: white;
     width: 65%;
     position: absolute;
-    top: 42%;
-    right: 15%;
+    top: 39%;
+    right: 17%;
 }
 
 .tips-c {
@@ -214,7 +220,7 @@ nav a:hover, nav li:hover {
     color: white;
     width: 65%;
     position: absolute;
-    top: 42%;
+    top: 37%;
     right: 15%;
 }
 
