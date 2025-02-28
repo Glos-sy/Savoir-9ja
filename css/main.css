@@ -1,0 +1,991 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+:root {
+    --primary: #193028;
+    --sub-text: #2B2B2B;
+    --base-white: #FFFFFF;
+    --sec-white: #FBFBFB;
+    --base-brown: #8A6240;
+    --package-green: #4C6444;
+    --package-cream: #F7F0E6;
+    --ng-green: #26473C;
+    --review-green: #143109;
+    --grey-text: #838383;
+    --black: #000000;
+    --light-green: #B5BFA1;
+    --foundation-orange: #EFE2DA;
+    --opaque-green: #52a88a16;
+    --landmark-green: #2D493f;
+    --rating-gold: #EBBF11;
+    --input-bg: #EAEAEA;
+    --food-grey: #D7CBC4;
+    --historic-brown: #8A6240;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: "Hanken Grotesk", serif;
+    width: 100%;
+    background-color: var(--base-white);
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+.flex-box {
+    display: flex;
+}
+.header-section,
+.categories-title,
+.landing-categories,
+.feature-title,
+.cat-img-holder,
+.feature-section,
+.feature-options,
+.feat-text,
+.feature-images,
+.attraction-section,
+.attraction-grid,
+.expert-text,
+.package,
+.guide-package-section,
+.guide-package-section .package,
+.foot-el {
+    flex-direction: column;
+}
+header {
+    position: relative;
+    flex-direction: column;
+    min-height: 85vh;
+    padding-top: 2rem;
+}
+.hide {
+    display: none !important;
+}
+.nav-section {
+    align-self: center;
+    align-content: center;
+    border-radius: 5rem;
+    padding: 1rem 1rem;
+    background-color: var(--primary);
+    width: 51.8125rem;
+    justify-content: space-around;
+}
+.nav-section .logo {
+    color: var(--base-white);
+    justify-content: space-between;
+    align-items: center;
+    min-width: 8rem;
+    align-self: center;
+}
+.nav-section .logo img {
+    width: 3rem;
+    height: 3rem;
+}
+.nav-section .nav-btn {
+    width: 10rem;
+    align-self: center;
+    padding: 1rem;
+    border-radius: 5rem;
+    background-color: var(--base-white);
+}
+.nav-section .nav-links {
+    min-width: 22rem;
+    align-self: center;
+    justify-self: center;
+    justify-content: space-between;
+}
+.nav-section .nav-links a,
+ .nav-section .nav-btn a{
+    display: inline-block;
+    padding-right: 2%;
+    color: var(--base-white);
+    font-size: 0.875rem;
+    text-decoration: none;
+}
+
+.nav-section .nav-btn a {
+    color: var(--primary);
+}
+header {
+    background: var(--opaque-green);
+}
+.header-section {
+    background: url('../img/nigerian-flag-grunge-brush-background-vector-29628121-removebg-preview.png') center no-repeat;
+    width: 28.4375rem;
+    height: auto;
+    text-align: center;
+    align-self: center;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+p.header-text {
+    margin: 3rem 0;
+    text-align: center;
+    text-transform:capitalize;
+}
+.header-section h1 {
+    font-size: 4rem;
+    color: var(--primary);
+    text-align: center;
+
+}
+
+.carousel {
+    /* transform-style: preserve-3d; */
+    /* perspective: 1000px; */
+    gap: 2rem;
+    position: relative;
+    overflow-x: scroll;
+    height: auto;
+    overflow-y: hidden;
+    padding-left: 8rem;
+}
+.carousel::before,
+.carousel::after{
+    content: "";
+    height: 7rem;
+    /* width: 100%; */
+    position: absolute;
+    background-color: var(--opaque-green);
+    border-radius: 50%;
+}
+.carousel::before{
+    inset: -50px -50px 0;
+}
+.carousel::after{
+    top: unset;
+    inset: 150px -50px 0;
+}
+.carousel .slide {
+    height: 18.75rem;
+    min-width: 24.875rem;
+    overflow-y: hidden;
+}
+.carousel .slide img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.categories-content {
+    justify-content: space-around;
+}
+.categories-title {
+    padding-left: 4.4rem;
+}
+.categories-title h2,
+.feature-title h2,
+.attraction-title h2,
+.expert-text h3,
+.guide-title h3,
+.memories-text h3 {
+    font-size: 2rem;
+}
+.cat-img-holder {
+    min-height: 30vh;
+    padding: 3rem 0;
+    justify-content: space-between;
+}
+.landing-categories {
+    padding: 2rem 8rem;
+    min-height: 50vh;
+    justify-content: space-around;
+    background-color: var(--sec-white);
+}
+.cat-img {
+    height: 18.3125rem;
+    width: 12.8125rem;
+    border-radius: 15rem;
+    background-color: aqua;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    align-self: center;
+}
+.cat-title,
+.attraction-title,
+.package-cards,
+.guide-title {
+    align-self: center;
+}
+.cat-title {
+    padding: 2rem 0;
+}
+
+.cat-title a {
+    border-radius: 4rem;
+    padding: 1rem 2rem;
+    color: var(--primary);
+    text-decoration: none;
+    border: 0.125rem solid var(--primary);
+    font-weight: normal;
+    font-size: 1.125rem;
+}
+.left-top-attraction,
+.mid-bottom-attraction,
+.right-top-attraction{
+    height: 34.8125rem;
+    width: 24.5625rem;
+    border-radius: 2rem; 
+}
+.feature-section {
+    padding: 2rem 0;
+}
+.features {
+    width: 90%;
+    align-self: center;
+}
+.feature-title{
+    padding-bottom: 2rem;
+    text-align: center;
+    font-size: 1.125rem;
+}
+.feature-title h2 {
+    font-size: 2rem;
+}
+.feature-title,
+.attraction-content {
+    align-self: center;
+    padding: 1rem 0;
+}
+.features .feat-option {
+    padding: 2rem 0;
+    position: relative;
+    justify-content: space-between;
+    font-size: 1.125rem;
+}
+.features .feat-num {
+    height: 2.375rem !important;
+    width: 4.75rem !important;
+    margin-right: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius:1rem;
+    align-self: center;
+}
+.features .green {
+    background-color: #2FAB80;
+}
+.features .blue {
+    background-color: #17A1FA;
+}
+.features .yellow {
+    background-color: #EBBF11;
+}
+.features .purple {
+    background-color: #9747FF;
+}
+.feat-text{
+    padding-left: 2rem;
+    align-self: flex-start;
+}
+.feat-text h4 {
+    font-size: 1.25rem;
+}
+.features .feat-num span {
+    display: inline-block;
+    position: absolute;
+    left: 1.8rem;
+    top: 2.1rem;
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+.feature-images .feat-img{
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+.feature-options,
+.feature-images {
+    align-self: center;
+}
+.feature-images {
+    padding-left: 4rem;  
+    width: 50%;  
+}
+.feature-images .feat-img {
+    height: 15.375rem;
+    width: 14.25rem;
+    overflow: hidden;
+}
+.feature-images .left-top, 
+.feature-images .right-bottom{
+    border-top-right-radius: 3.8rem;
+    border-bottom-left-radius: 3.8rem;
+}
+.feature-images .right-top,
+.feature-images .left-bottom {
+    border-top-left-radius: 3.8rem;
+    border-bottom-right-radius: 3.8rem;
+}
+.feature-images img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.left-bottom-attraction,
+.mid-top-attraction,
+.right-bottom-attraction {
+    height: 17.9375rem;
+    width: 24.625rem;
+    border-radius: 2rem;
+}
+.attraction-content h5 {
+    font-size: 1.25rem;
+}
+.attraction-title {
+    text-align: center;
+    font-size: 1.125rem;
+}
+.attraction-grid .left-top-attraction h5,
+.attraction-grid .left-bottom-attraction h5,
+.attraction-grid .mid-bottom-attraction h5,
+.attraction-grid .right-bottom-attraction h5
+{
+    width: 50%;
+    color: var(--base-white);
+    margin: 2rem 0 0 1rem;
+    text-shadow: 0 0 3px var(--black);
+}
+
+.attraction-grid .mid-top-attraction h5,
+.attraction-grid .right-top-attraction h5 {
+    width: 50%;
+    color: var(--base-white);
+    align-self: flex-end;
+    margin: 0 0 2rem 1rem;
+    text-shadow: 0 0 3px var(--black);
+}
+.attraction-grid .flex-box {
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    box-sizing: content-box;
+    box-shadow: 0 0 2px var(--primary);
+    margin: 1rem;
+}
+.attraction-grid .left-top-attraction {
+    background: url('../img/landmark_scale.png');
+}
+.attraction-grid .left-bottom-attraction {
+    background: url('../img/art_gallery.png');
+}
+.attraction-grid .mid-top-attraction {
+    background: url('../img/cat-5.png');
+}
+.attraction-grid .mid-bottom-attraction {
+    background: url('../img/pleasure_park_ph.png');
+}
+.attraction-grid .right-top-attraction {
+    background: url('../img/olumo_rock.png');
+}
+.attraction-grid .right-bottom-attraction {
+    background: url('../img/Erin-Ijesha-Waterfall.png');
+}
+.attraction-grid div {
+    background-color: antiquewhite;
+}
+.expert-section {
+    min-height: 40vh;
+    justify-content: space-around;
+    padding: 3rem 0;
+    background-color: var(--base-brown) !important;
+    background:   url('../img/left-bg.png') left no-repeat, url('../img/right-bg.png') right no-repeat;
+}
+.expert-text {
+    width: 40%;
+    color: var(--base-white);
+    justify-content: space-between;
+}
+.expert-text h3 {
+    font-size: 2rem;
+}
+.expert-text .book-tour {
+    padding: 2rem 0;
+    width: 80%;
+    align-self: center;
+}
+.book-tour a {
+    border-radius: 2rem;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 0.875rem;
+    background-color: var(--base-white);
+    color: var(--sub-text);
+}
+
+.expert-text ul li {
+    position: relative;
+    color: var(--base-white);
+    line-height: 2rem;
+    vertical-align: middle;
+    width: 100%;
+    font-size: 1rem;
+    list-style-position: inside;
+    list-style-image: url('../img/badge.svg');
+}
+.expert-text ul li span {
+    position: absolute;
+    top: 4px;
+}
+
+.expert-section .expert-image{
+    overflow: hidden;
+    width: 25rem;
+    height: 17.9375rem;
+    border-radius: 40%;
+    box-shadow: 0 0 10px #F7F0E6;
+    align-self: center;
+}
+.expert-image img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.guide-package-section {
+    padding: 2rem 0;
+    background-color: var(--foundation-orange);
+}
+.guide-title {
+    text-align: center;
+    padding: 1rem 0;
+    width: 35%;
+}
+.guide-title h3 {
+    color: var(--sub-text);
+}
+.guide-title p {
+    color: var(--grey-text);
+}
+.package-cards {
+    min-height: 60vh;
+    position: relative;
+}
+.package-cards .package {
+    width: 25.8125rem;
+    height: 35.5rem;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin-right: 1rem;
+    justify-content: space-around;
+}
+.package-cards .package-header {
+    align-self: center;
+    text-align: center;
+    color: var(--black);
+    font-size: 0.875rem;
+}
+.package-header h4{
+    font-size: 1.125rem;
+}
+.package-cards .package-text p.desc-text {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 0.1rem solid var(--primary);
+}
+.package-text .desc-text {
+    font-size: 1rem;
+}
+.package-cards .book-package {
+    padding-top: 1rem;
+    border-top: 0.1rem solid var(--primary);
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+.package-cards .package-text ul li {
+    list-style-position: inside;
+    list-style-image: url('../img/badge-green.svg');
+    font-size: 0.8rem;
+    position: relative;
+}
+.package-cards .package-text ul li span{
+    position: absolute;
+    top: 8px;
+}
+.package-cards .book-package .book {
+    border-radius: 2rem;
+    padding: 1rem;
+    background-color: var(--primary);
+    color: var(--sec-white);
+}
+.cultural-package .book-package .book {
+    background-color: var(--sec-white);
+    color: var(--primary);
+}
+.package .book-package .cost {
+    color: var(--sub-text);
+    font-weight: bold;
+}
+.cultural-package .book-package .cost {
+    color: var(--sec-white);
+}
+.cultural-package {
+    background-color: var(--package-green);
+    color: var(--sec-white);
+    margin-top: 2rem;
+}
+.cultural-package .package-header {
+    color: var(--base-white);
+}
+.cultural-package .book-package,
+.cultural-package .package-text p.desc-text {
+    border-color: var(--sec-white);
+}
+.explore-package,
+.vip-package {
+    background-color: var(--package-cream);
+    color: var(--grey-text);
+    margin-top: 6rem;
+}
+.memories-section {
+    min-height: 40vh;
+}
+.memories-content{
+    min-height: 40vh;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+}
+.memories-content .memories-text,
+.memories-content .memories-review {
+    width: 50%;
+}
+.memories-text,
+.memories-review {
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+.memories-text {
+    text-align: center;
+    align-items: center;
+}
+.memories-content .blank {
+    background-color: var(--light-green);
+}
+.memories-text .blank {
+    width: 18rem;
+    height: 2.113125rem;
+}
+.memories-text h3 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+.memories-text small {
+    font-size: 0.875rem;
+    padding-bottom: 0.5rem;
+}
+.memories-review .blank {
+    position: absolute;
+    width: 31.8125rem;
+    height: 17.9375rem;
+    border-radius: 2rem;
+}
+.memories-review .review-user {
+    position: absolute;
+    height: 17.9375rem;
+    width: 30.25rem;
+    background-color: var(--review-green);
+    color: var(--sec-white);
+    left: 0.75rem;
+    top: 5rem;
+    border-radius: 2rem;
+}
+.review-user .user-text {
+    flex: 1 1 70%;
+    align-self: flex-start;
+    text-align: justify;
+    padding: 2rem 0.5rem 0;
+    font-size: 1.125rem;
+}
+.review-user .float-stars {
+    position: absolute;
+    bottom: 3rem;
+    right: -5rem;
+}
+.review-user .user-img {
+    flex: 1 1 30%;
+    align-self: flex-end;
+    flex-direction: column;
+    padding: 0 0.8rem 1rem;
+    position: relative;
+    overflow-x: visible;
+}
+.review-user .user-img img {
+    padding-bottom: 0.5rem;
+}
+footer {
+    width: 100%;
+    min-height: 50vh;
+    background-size: cover;
+    background: url('../img/nigeriaHero.png') center no-repeat;
+}
+footer .foot-logo {
+    color: var(--primary);
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.125rem;
+    font-weight: 600;
+    min-width: 8rem;
+    align-self: flex-start;
+}
+footer .foot-logo img {
+    width: 3rem;
+    height: 3rem;
+}
+.footer-content .left {
+    width: 25%;
+}
+.footer-content .right {
+    width: 15%;
+}
+.foot-el h5 {
+    font-size: 1.125rem;
+}
+.foot-el h5,
+.foot-logo,
+.foot-desc {
+    padding-bottom: 1.5rem;
+}
+.foot-desc {
+    color: var(--grey-text);
+}
+.footer-content {
+    background-color: var(--base-white);
+    width: 90%;
+    min-height: 35vh;
+    border-radius: 2rem;
+    align-self: center;
+    margin: auto;
+    justify-content: space-around;
+    padding-top: 4rem;
+}
+footer .links {
+    display: flex;
+    flex-direction: column;
+}
+footer .links a{
+    display: inline-block;
+    padding: 0.5rem 0;
+    color: var(--grey-text);
+}
+.foot-mail {
+    background-color: var(--base-white);
+    color: var(--grey-text);
+    align-items: center;
+    padding: 1rem;
+    border-radius: 2rem;
+    justify-content: space-around;
+    box-shadow: 0 1px 2px 0 inset var(--primary);
+}
+footer .newsletter {
+    flex-direction: column;
+}
+footer .newsletter strong {
+    padding-bottom: 1rem;
+}
+.foot-mail a {
+    color: var(--sec-white);
+    font-size: 0.875rem;
+}
+.foot-socials a {
+    font-size: 1.5rem;
+    padding-right: 0.6rem;
+    color: var(--primary);
+}
+footer .send {
+    background-color: var(--ng-green);
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    color: var(--sec-white);
+}
+
+/* Screen size 1024px */
+@media screen and (max-width:1024px) {
+    header {
+        min-height: 75vh;
+    }
+    .package-cards {
+        min-height: 50vh;
+    }
+}
+/* Screen size 768px */
+@media screen and (max-width:1024px) {
+    header {
+        min-height: 70vh;
+    }
+    .carousel .slide {
+        height: 17.75rem;
+        min-width: 22.875rem;
+    }
+    .landing-categories {
+        padding: 2rem;
+    }
+    .cat-img-holder {
+        min-height: 30vh;
+        justify-content: space-around;
+    }
+    .features {
+        width: 95%;
+        align-self: center;
+    }
+    .features .feat-num span {
+        left: 1.2rem;
+        top: 3.3rem;
+    }
+    .attraction-grid .flex-box {
+        margin: 0.3rem;
+    }
+    .expert-text {
+        width: 50%;
+    }
+    .package-cards {
+        min-height: 50%;
+    }
+    .memories-content{
+        width: 90%;
+    }
+    .memories-review .review-user {
+        left: 0.75rem;
+        top: 8rem;
+    }
+    footer {
+        min-height: 40vh;
+    }
+    .footer-content {
+        width: 98%;
+        padding-top: 3rem;
+    }
+}
+@media screen and (max-width:700px) {
+    .landing-categories {
+        padding: 1rem;
+    }
+    .cat-img {
+        height: 14.3125rem;
+        width: 8.8125rem;
+    }
+    .left-bottom-attraction,
+    .mid-top-attraction,
+    .right-bottom-attraction {
+        height: 17.9375rem;
+        width: 21.625rem;
+        border-radius: 2rem;
+    }
+    .left-top-attraction,
+    .mid-bottom-attraction,
+    .right-top-attraction{
+        height: 30.8125rem;
+        width: 21.5625rem;
+        border-radius: 2rem; 
+    }
+}
+@media screen and (max-width:600px) {
+    .landing-categories {
+        padding: 2rem;
+    }
+    .cat-img-holder:nth-child(even)
+     {
+        display: none;
+    }
+    .cat-img{
+        height: 16.3125rem;
+        width:10.8125rem;
+    }
+    .features {
+        flex-direction: column;
+    }
+    .feature-images .feat-img {
+        height: 16.375rem;
+        width: 19.25rem;
+        overflow: hidden;
+    }
+    .feature-options {
+        width: 80%;
+    }
+    .feature-images {
+        width: 60%;
+    }
+    .features .feat-num span {
+        left: 1.2rem;
+        top: 2.6rem;
+    }
+
+    .left-bottom-attraction,
+    .mid-top-attraction,
+    .right-bottom-attraction {
+        height: 13.9375rem;
+        width: 17.625rem;
+        border-radius: 2rem;
+    }
+    .left-top-attraction,
+    .mid-bottom-attraction,
+    .right-top-attraction{
+        height: 26.8125rem;
+        width: 17.5625rem;
+        border-radius: 2rem; 
+    }
+    .expert-section .expert-image{
+        width: 25rem;
+        height: 17.9375rem;
+        border-radius: 40%;
+        align-self: center;
+    }
+    .expert-section {
+        min-height: 40vh;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 3rem 0;
+        background:   url('../img/left-bg.png') right no-repeat;
+    }
+    .expert-text {
+        padding: 2rem 0;
+        margin: auto;
+        width: 80%;
+    }
+    .expert-text .book-tour {
+        padding: 2rem 0;
+        width: 50%;
+        align-self: flex-start;
+    }
+    .package-cards {
+        flex-direction: column;
+    }
+    .cultural-package {
+        margin-top: 2rem;
+    }
+    .explore-package,
+    .vip-package {
+        margin-top: 2rem;
+    }
+    .memories-section{
+        width: 100%;
+    }
+    .memories-content {
+        width: 100%;
+        padding: 2rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    .memories-review {
+        padding: 0 1rem;
+        overflow: hidden;
+        overflow: visible;
+    }
+    .memories-review .review-user {
+        position: absolute;
+        inset: 0;
+    }
+    .memories-review .blank {
+        position: relative;
+        inset: 0;
+    }
+    footer .foot-el:nth-child(2) {
+        display: none;
+    }
+    footer .foot-el {
+        width: 23%;
+    }
+    .footer-content .right {
+        width: 15%;
+    }
+}
+@media screen and (max-width:500px) {
+    header {
+        min-height: 50vh;
+    }
+    header .nav-section nav {
+        display: none;
+    }
+    header .nav-section {
+        width: 45rem;
+    }
+    .attraction-grid .right-top-attraction {
+        order: 1;
+    }
+    .mid-top-attraction
+    {
+        display: none;
+    }
+    .mid-bottom-attraction
+    {
+        display: none; 
+    }
+    .feat-option {
+        flex-direction: column;
+    }
+    .features .feat-num {
+        margin-right: 1rem;
+        align-self: flex-start;
+    }
+    .memories-section {
+        height: 50vh;
+    }
+    .memories-content {
+        height: 100%;
+        justify-content: center;
+    }
+    .memories-section .memories-text {
+        padding-bottom: 1rem;
+    }
+    .memories-review {
+        position: relative;
+        margin: auto;
+        width: 100%;
+    }
+    .memories-section .review-user {
+        position: relative;
+        margin: auto;
+        left: -5rem;       
+    }
+    .memories-review .blank {
+        position: absolute;
+        left: -4rem;
+    }
+    footer {
+        min-height: 50vh;
+    }
+    footer .foot-el, 
+    footer .right
+     {
+        width: 70%;
+    }
+    .footer-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer .links {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .foot-el h5 {
+        padding-top: 2rem;
+        align-self: center;
+    }
+    footer .links a {
+        padding-right: 0.5rem;
+    }
+
+    .header-text {
+        order: 3;
+    }
+    .carousel {
+        order: 4;
+    }
+    .header-section {
+        order: 2;
+    }
+
+}

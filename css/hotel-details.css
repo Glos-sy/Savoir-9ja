@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+    --primary: #193028;
+    --sub-text: #2B2B2B;
+    --base-white: #FFFFFF;
+    --sec-white: #FBFBFB;
+    --base-brown: #8A6240;
+    --package-green: #4C6444;
+    --package-cream: #F7F0E6;
+    --ng-green: #26473C;
+    --review-green: #143109;
+    --grey-text: #838383;
+    --black: #000000;
+    --light-green: #B5BFA1;
+    --foundation-orange: #EFE2DA;
+    --opaque-green: #52a88a16;
+    --landmark-green: #2D493f;
+    --rating-gold: #EBBF11;
+    --input-bg: #EAEAEA;
+    --food-grey: #D7CBC4;
+    --historic-brown: #8A6240;
+    --forgot-green: #568575;
+}
+html {
+    font-size: 62.5%;
+    font-family: "Hanken Grotesk", serif;
+}
+body {
+    width: 100%;
+}
+.flex-box {
+    display: flex;
+}
+.hotel-title {
+    flex-direction: column;
+    justify-content: center;
+}
+.hotel-title span {
+    color: var(--grey-text);
+    display: block;
+    padding: 0 0 1rem;
+}
+.hotel-info-section {
+    padding: 2% 5%;
+    flex-direction: column;
+}
+.hotel-review{
+    width: 100%;
+    justify-content: space-between;
+}
+.hotel-carousel{
+    background: url('../img/transcorp-1.png') center no-repeat;
+    background-size: cover !important;
+    width: 50%;
+    height: 50vh;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.hotel-carousel .slides {
+    width: 100%;
+    gap: 1%;
+    justify-content: center;
+    align-self: center;
+    padding: 2rem 0;
+}
+.hotel-carousel .slides .slide {
+    width: 8rem;
+    height: 7rem;
+    background-color: grey;
+    border-radius: 1rem;
+    background-size: cover !important;
+}
+
+.hotel-review .review {
+    width: 45%;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.rating {
+    width: 8%;
+    padding: 0.7rem 0.5rem;
+    color: var(--input-bg);
+    border-radius: 0.5rem;
+    justify-content: space-around;
+    background-color: var(--review-green);
+}
+h2 {
+    font-size: 3rem;
+}
+h4 {
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+h5 {
+    font-size: 1.5rem;
+}
+.average-rate{
+    justify-content: flex-start;
+    gap: 1rem;
+}
+.hotel-review .review-range {
+    flex-direction: column;
+}
+.review-range input[type="range"] {
+    appearance: none;
+    overflow: hidden;
+    border-radius: 0.6rem;
+}
+input[type="range"]::-webkit-slider-runnable-track
+{
+    height: 0.6rem;
+    background: #d9d9d9;
+    border-radius: 0.6rem;
+}
+input[type="range"]::-moz-range-track
+{
+    height: 0.6rem;
+    background: #d9d9d9;
+    border-radius: 0.6rem;
+}
+
+input[type="range"]::-webkit-slider-thumb{
+    appearance: none;
+    -webkit-appearance: none;
+    height: 0.6rem;
+    width: 2rem;
+    border-top-right-radius: 0.6rem;
+    border-bottom-right-radius: 0.6rem;
+    background: #2D493F;
+    box-shadow: -20rem 0 0 18rem #2D493F;
+}
+.booking,
+.booking-title,
+.booking .rooms-info,
+.about-room,
+.book-room {
+    flex-direction: column;
+}
+.booking .rooms-info {
+    width: 70%;
+    padding: 1rem;
+    margin: 0 3rem 0 2rem;
+}
+.booking .room-details {
+    border-bottom: 0.1rem solid var(--grey-text);
+    padding: 1rem;
+    padding: 2rem;
+    width: 100%;
+    justify-content: space-around;
+}
+.booking .room-details .room-img {
+    height: 18rem;
+    width: 30rem;
+    align-self: flex-start;
+    background-size: cover !important;
+}
+.booking .room-details .about-room {
+    padding: 1rem;
+    width: 20%;
+    align-self: center;
+}
+
+.booking .room-details .about-room {
+    border-right: 0.1rem solid var(--grey-text);
+}
+.booking .standard .room-img {
+    background: url('../img/transcorp-2.png') no-repeat center;
+}
+.booking .superior .room-img {
+    background: url('../img/transcorp-5.png') no-repeat center;
+}
+.booking .single .room-img {
+    background: url('../img/transcorp-4.png') no-repeat center;
+}
+.book-room{
+    align-self: center;
+    align-items: flex-start;
+    justify-content: space-around;
+    text-align: left;
+}
+.book{
+    align-self: center;
+    color: var(--base-white);
+    padding: 1rem 4rem;
+    border: none;
+    background-color: var(--ng-green);
+    border-radius: 2rem;
+}

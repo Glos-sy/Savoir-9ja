@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+    --primary: #193028;
+    --sub-text: #2B2B2B;
+    --base-white: #FFFFFF;
+    --sec-white: #FBFBFB;
+    --base-brown: #8A6240;
+    --package-green: #4C6444;
+    --package-cream: #F7F0E6;
+    --ng-green: #26473C;
+    --review-green: #143109;
+    --grey-text: #838383;
+    --black: #000000;
+    --light-green: #B5BFA1;
+    --foundation-orange: #EFE2DA;
+    --opaque-green: #52a88a16;
+    --landmark-green: #2D493f;
+    --rating-gold: #EBBF11;
+    --input-bg: #EAEAEA;
+    --food-grey: #D7CBC4;
+    --historic-brown: #8A6240;
+}
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+html {
+    width: 100%;
+    font-size: 62.5%;
+    font-family: "Hanken Grotesk", serif;
+}
+body{
+    position: relative;
+}
+.flex-box {
+    display: flex;
+}
+.container {
+    padding: 3rem;
+    gap: 1;
+    justify-content: space-between;
+    height: 100vh;
+}
+.background {
+    position: relative;
+    width: 40%;
+    background-color: #2D493F !important;
+    background: url('../img/bg-form.png') center no-repeat;
+    background-size: contain;
+    border-radius: 1rem;
+    flex-direction: column;
+}
+.logo {
+    padding: 1rem 2rem;
+    color: var(--base-white);
+    align-items: center;
+}
+.background .img {
+    align-self: center;
+    text-align: center;
+    z-index: 2;
+    width: 80%;
+    margin-top: 20%;
+}
+.background .hanger {
+    position: absolute;
+    align-self: center;
+    background-color: #fff;
+    height: 40%;
+    transform: rotate(7deg);
+    width: 0.4rem;
+    top: -1%;
+    right:40%;
+    z-index: 1;
+}
+.background .img img {
+    width: 100%;
+}
+.form-side {
+    flex-direction: column;
+    padding: 2rem 8rem;
+    width: 50%;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+}
+
+.otp {
+    flex-direction: column;
+}
+.otp .token input {
+    padding: 0.5rem;
+    height: 5rem;
+    width: 5rem;
+    margin-right: 0.6rem;
+    cursor: not-allowed;
+    /* pointer-events: none; */
+}
+.otp .resend {
+    align-self: flex-end;
+    margin-top: 0.5rem;
+}
+.sign-btn {
+    border: none;
+    padding: 0.8rem 10rem;
+    align-self: center;
+    background-color: #9CB1AA;
+    border-radius: 2rem;
+}
+.sign-btn:hover {
+    cursor: pointer;
+}
+.modal-loader {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    z-index: 5;
+    justify-content: center;
+    align-items: center;
+}
+.hide {
+    display: none;
+}
+.modal {
+    flex-direction: column;
+    align-items: center;
+    width: 25rem;
+    height: 20rem;
+    background-color: var(--input-bg);
+    justify-content: center;
+    border-radius: 1rem;
+    font-size: 1rem;
+}
+.modal i{
+    font-size: 2rem;
+}
+.modal h3{
+    font-size: 2rem;
+}
+.modal .continue {
+    margin: 1rem 0;
+    background-color: var(--base-white);
+    border-radius: 2rem;
+    border: 0.1rem solid var(--ng-green);
+    padding: 1rem 3rem;
+    font-size: 1.125rem;
+}
+.modal .continue:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width:1254px) {
+    .container {
+        padding: 4rem 1rem;
+        justify-content: space-around;
+    }
+    .background {
+        background-size: cover;
+    }
+    .background .img {
+        width: 100%;
+        margin-top: 40%;
+    } 
+}
+
+@media screen and (max-width:1024px) {
+    .container {
+        padding: 8rem 1rem;
+        justify-content: space-around;
+    }
+    .background .img {
+        width: 100%;
+        margin-top: 50%;
+    } 
+}
+
+@media screen and (max-width:850px) {
+    .container {
+        padding: 10rem 1rem;
+        justify-content: space-around;
+    }
+    .background {
+        width: 40%;
+        background-size:60%;
+        background-repeat:repeat-y;
+        background-position: top right;
+    }
+    .background .img {
+        width: 100%;
+        margin-top: 50%;
+    } 
+    .sign-btn {
+        padding: 0.8rem 4rem;
+    }
+    .otp .token input {
+        height: 3rem;
+        width: 3rem;
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+    .container {
+        padding: 3rem 2rem;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .background {
+        width: 100%;
+        height: 50%;
+        background-size:60%;
+        background-repeat:repeat-y;
+        background-position: top right;
+    }
+    .hanger {
+        height: 10%;
+    }
+    .background .img {
+        margin-top: 5%;
+        width: 80%;
+    } 
+    .background .img img {
+        height: 300px;
+    }
+    .form-side {
+        width: 100%;
+        gap: 2rem;
+        align-items: flex-start;
+    }
+    .sign-btn {
+        font-size: 1.4rem;
+        padding: 0.8rem 8rem;
+    }
+    .otp .token input {
+        height: 5rem;
+        width: 5rem;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .background {
+        width: 100%;
+        height: 50%;
+        background-size:10%;
+        background-repeat:repeat-x;
+        background-position: bottom right;
+    }
+    .hanger {
+        height: 15%;
+    }
+    .background .img {
+        margin-top: 15%;
+    } 
+    .background .img img {
+        height: 240px;
+    }
+    .form-side {
+        width: 100%;
+        gap: 2rem;
+        align-items: flex-start;
+        padding: 1rem 2rem;
+    }
+    .sign-btn {
+        font-size: 1.4rem;
+        padding: 0.8rem 8rem;
+    }
+    .otp .token input {
+        height: 5rem;
+        width: 5rem;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .background {
+        background-size:15%;
+    }
+    .background .img {
+        width: 100%;
+        margin-top: 20%;
+    } 
+    .sign-btn {
+        padding: 0.8rem 4rem;
+    }
+    .otp .token input {
+        height: 3rem;
+        width: 3rem;
+    }
+    
+}
