@@ -13,7 +13,6 @@ otps.forEach((input, index)=>{
             target.value = "";
             return;
         }
-    
         if(value != "") {
             const next = target.nextElementSibling;
             const end = document.querySelector('#six');

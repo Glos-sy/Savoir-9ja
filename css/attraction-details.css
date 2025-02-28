@@ -10,6 +10,14 @@ html {
 body {
     position: relative;
 }
+.hero {
+    flex-direction: column;
+    align-items: center;
+}
+header {
+    position: fixed;
+}
+
 .carousel {
     width: 100%;
 }

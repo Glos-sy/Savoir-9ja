@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Safety Tips</title>
+    <script src="https://kit.fontawesome.com/cce7b28744.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/nav.css">
     <link
       rel="shortcut icon"
       href="../img/game-icons_nigeria.png"
@@ -57,7 +60,24 @@
     />
   </head>
   <body>
-    <header>
+    <header style="position: relative; display: flex;">
+     <!-- Main nav bar section -->
+    <div style="position: absolute; align-self: center; top: 1rem;" class="nav-section flex-box">
+      <div class="logo flex-box">
+          <img src="../img/game-icons_nigeria.png" alt="Savoir 9ja Logo">
+          <p>Savoir 9ja</p>
+      </div>
+      <nav class="nav-links flex-box">
+          <a href="../index.html">Home</a>
+          <a href="../Attractions/attractions.html">Attractions</a>
+          <a href="../pages/history.html">9JA</a>
+          <a href="../pages/reviews.html">Reviews</a>
+          <a href="../pages/create_account.html" class="nav-active">More</a>
+      </nav>
+      <div class="nav-btn flex-box">
+          <a href="#" style="font-weight: bold; display: inline-block;">Explore Now <i>↗</i></a>
+      </div> 
+  </div>
       <img src="../Media/safety.png" alt="" />
       <div class="header-txt">
         <h1>STAY SAFE WHILE TRAVELLING</h1>
@@ -67,6 +87,25 @@
         </h2>
       </div>
     </header>
+      <!-- Burger Menu Nav-bar -->
+      <div class="home-burger flex-box">
+        <div class="mini-logo flex-box">
+            <img src="../img/game-icons_nigeria.png" class="mini-logo"/><span>Savoir 9ja</span>
+        </div>
+            <i class="fa-solid fa-bars"></i>    
+    </div>
+    <div class="burger-section hide flex-box">
+        <div class="nav-links flex-box">
+            <a href="../index.html">Home</a>
+            <a href="../Attractions/attractions.html">Attractions</a>
+            <a href="../pages/history.html">9JA</a>
+            <a href="../pages/reviews.html">Reviews</a>
+            <a href="../pages/create_account.html" class="burger-active">More</a>
+        </div>
+        <div class="nav-btn flex-box">
+            <a href="#" style="font-weight: bold; display: inline-block;">Explore Now <i>↗</i></a>
+        </div> 
+    </div>
 
     <main>
       <nav>
@@ -235,5 +274,6 @@
         </div>
       </section>
     </main>
+    <script src="../js/nav.js"></script>
   </body>
 </html>

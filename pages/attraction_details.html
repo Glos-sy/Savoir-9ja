@@ -9,24 +9,45 @@
     <link rel="stylesheet" href="../css/nav.css">
 </head>
 <body>
-    <header class="pages">
-        <div class="nav-section flex-box">
-            <div class="logo flex-box">
-                <img src="../img/game-icons_nigeria.png" alt="Savoir 9ja Logo">
-                <p>Savoir 9ja</p>
+    <div class="hero flex-box">
+        <header class="pages">
+            <div class="nav-section flex-box">
+                <div class="logo flex-box">
+                    <img src="../img/game-icons_nigeria.png" alt="Savoir 9ja Logo">
+                    <p>Savoir 9ja</p>
+                </div>
+                <nav class="nav-links flex-box">
+                    <a href="../index.html">Home</a>
+                    <a href="">Attractions</a>
+                    <a href="./history.html">9JA</a>
+                    <a href="./reviews.html">Reviews</a>
+                    <a href="">More</a>
+                </nav>
+                <div class="nav-btn flex-box">
+                    <a href="#" style="font-weight: bold; display: inline-block;">Explore Now <i>↗</i></a>
+                </div> 
             </div>
-            <nav class="nav-links flex-box">
-                <a href="../index.html">Home</a>
-                <a href="">Attractions</a>
-                <a href="./history.html">9JA</a>
-                <a href="./reviews.html">Reviews</a>
-                <a href="">More</a>
-            </nav>
-            <div class="nav-btn flex-box">
-                <a href="#" style="font-weight: bold; display: inline-block;">Explore Now <i>↗</i></a>
-            </div> 
+
+            <div class="home-burger flex-box">
+                <div class="mini-logo flex-box">
+                    <img src="../img/game-icons_nigeria.png" class="mini-logo"/><span>Savoir 9ja</span>
+                </div>
+                    <i class="fa-solid fa-bars"></i>    
+            </div>
+        </header>    
+    </div>
+    <div class="burger-section hide flex-box">
+        <div class="nav-links flex-box">
+            <a href="../index.html">Home</a>
+            <a href="../pages/attractions.html">Attractions</a>
+            <a href="./history.html">9JA</a>
+            <a href="./reviews.html">Reviews</a>
+            <a href="./create_account.html">More</a>
         </div>
-    </header>
+        <div class="nav-btn flex-box">
+            <a href="#" style="font-weight: bold; display: inline-block;">Explore Now <i>↗</i></a>
+        </div> 
+    </div>
     <div class="carousel">
     <div class="carousel-container">
         <i class="fa-regular fa-circle-left"></i>
@@ -172,5 +193,6 @@
     </div>
 
     <script src="../js/attraction-details.js"></script>
+    <script src="../js/nav.js"></script>
 </body>
 </html>

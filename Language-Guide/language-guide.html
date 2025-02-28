@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Language Guide</title>
+    <script src="https://kit.fontawesome.com/cce7b28744.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/nav.css">
+
     <link
       rel="shortcut icon"
       href="../img/game-icons_nigeria.png"
@@ -47,14 +51,50 @@
     />
   </head>
   <body>
-    <header>
+    <header style="position: relative; display: flex;">
       <img
         src="../Media/the-annual-Ojude-Oba-festival-in-Ijebu-Ode-on-June-18-2024__NigeriaCultureFestival-6.png"
         alt=""
       />
+
       <div class="overlay"></div>
+                <!-- Main nav bar section -->
+    <div style="position: absolute; align-self: center;" class="nav-section flex-box">
+      <div class="logo flex-box">
+          <img src="../img/game-icons_nigeria.png" alt="Savoir 9ja Logo">
+          <p>Savoir 9ja</p>
+      </div>
+      <nav class="nav-links flex-box">
+          <a href="../index.html">Home</a>
+          <a href="../Attractions/attractions.html">Attractions</a>
+          <a href="../pages/history.html">9JA</a>
+          <a href="../pages/reviews.html">Reviews</a>
+          <a href="../pages/create_account.html" class="nav-active">More</a>
+      </nav>
+      <div class="nav-btn flex-box">
+          <a href="#" style="font-weight: bold; display: inline-block;">Explore Now <i>↗</i></a>
+      </div> 
+  </div>
     </header>
-    <nav></nav>
+              <!-- Burger Menu Nav-bar -->
+              <div class="home-burger flex-box">
+                <div class="mini-logo flex-box">
+                    <img src="../img/game-icons_nigeria.png" class="mini-logo"/><span style="color: #fff;">Savoir 9ja</span>
+                </div>
+                    <i class="fa-solid fa-bars" style="color: #fff;"></i>    
+            </div>
+            <div class="burger-section hide flex-box">
+                <div class="nav-links flex-box">
+                    <a href="">Home</a>
+                    <a href="">Attractions</a>
+                    <a href="" class="burger-active">9JA</a>
+                    <a href="">Reviews</a>
+                    <a href="">More</a>
+                </div>
+                <div class="nav-btn flex-box" style="padding: 0.5rem 3rem; width: auto;">
+                    <a href="#" style="font-weight: bold; display: inline-block; border-radius: none;">Explore Now <i>↗</i></a>
+                </div> 
+            </div>
     <main>
       <section class="txt-lagos">
         <h1>
@@ -154,5 +194,6 @@
         </table>
       </section>
     </main>
+    <script src="../js/nav.js"></script>
   </body>
 </html>
