@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+    --primary: #193028;
+    --sub-text: #2B2B2B;
+    --base-white: #FFFFFF;
+    --sec-white: #FBFBFB;
+    --base-brown: #8A6240;
+    --package-green: #4C6444;
+    --package-cream: #F7F0E6;
+    --ng-green: #26473C;
+    --review-green: #143109;
+    --grey-text: #838383;
+    --black: #000000;
+    --light-green: #B5BFA1;
+    --foundation-orange: #EFE2DA;
+    --opaque-green: #52a88a16;
+    --landmark-green: #2D493f;
+    --rating-gold: #EBBF11;
+    --input-bg: #EAEAEA;
+    --food-grey: #D7CBC4;
+    --historic-brown: #8A6240;
+}
+html {
+    font-size: 62.5%;
+    font-family: "Hanken Grotesk", serif;
+}
+body {
+    position: relative;
+    width: 100%;
+}
+.flex-box {
+    display: flex;
+}
+header.pages {
+    margin-left: 28%;
+    position: absolute;
+    padding-top: 1rem;
+    background: var(--opaque-green);
+}
+header .nav-section {
+    align-self: center;
+    align-content: center;
+    border-radius: 5rem;
+    padding: 1rem 1rem;
+    background-color: var(--primary);
+    width: 51.8125rem;
+    justify-content: space-around;
+}
+.nav-section .logo {
+    color: var(--base-white);
+    justify-content: space-between;
+    align-items: center;
+    min-width: 8rem;
+    align-self: center;
+}
+.nav-section .logo img {
+    width: 3rem;
+    height: 3rem;
+}
+.nav-section .nav-btn {
+    width: 10rem;
+    align-self: center;
+    padding: 1rem;
+    border-radius: 5rem;
+    background-color: var(--base-white);
+}
+.nav-section .nav-links {
+    min-width: 22rem;
+    align-self: center;
+    justify-self: center;
+    justify-content: space-between;
+}
+.nav-section .nav-links a,
+ .nav-section .nav-btn a{
+    display: inline-block;
+    padding-right: 2%;
+    color: var(--base-white);
+    font-size: 0.875rem;
+    text-decoration: none;
+}
+
+.nav-section .nav-btn a {
+    color: var(--primary);
+}
+header {
+    background: var(--opaque-green);
+}
+
+@media screen and (max-width:500px) {
+    body {
+        position: relative;
+    }
+    .nav-section {
+        display: none;
+    }
+    header {
+        padding-top: 0;
+    }
+    .hide {
+        display: none !important;
+    }
+    .burger-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        padding: 1rem;
+        height: 35vh;
+        background: var(--package-green);
+        position: absolute;
+        top: 7rem;
+    }
+    .fa-bars {
+        font-size: 2.5rem;
+    }
+    .burger-menu {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: var(--package-green);
+        order: 1;
+        padding: 2rem;
+        color: var(--sec-white);
+    }
+    .burger-menu span {
+        font-size: 1.5rem;
+        display: inline-block;
+    }
+    .nav-links {
+        flex-direction: column;
+    }
+    .nav-links a {
+        color: var(--sec-white);
+        font-size: 1.4rem;
+        display: block;
+        padding: 1.5rem 0;
+        margin: 0 1rem;
+        border-bottom: 0.01rem solid var(--sec-white);
+    }
+    .burger-section .nav-btn {
+        width: 10rem;
+        align-self: center;
+        padding: 1rem;
+        border-radius: 5rem;
+        background-color: var(--base-white);
+    }
+    .burger-section .nav-btn a {
+        color: var(--package-green);
+    }
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verify Email</title>
+    <link rel="stylesheet" href="../css/verify.css">
+    <script src="https://kit.fontawesome.com/cce7b28744.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="../img/game-icons_nigeria.png" type="image/x-icon">
+
+</head>
+<body>
+    <div class="container flex-box">
+        <div class="background flex-box">
+            <div class="logo flex-box">
+                <img src="../img/game-icons_nigeria.png" alt="Savoir 9ja Logo">
+                <span>Savoir 9ja</span>
+            </div>
+            <div class="hanger"></div>
+            <div class="img flex-box">
+                <img src="../img/verify_mail_bg.png" alt="Nigeria">
+            </div>
+        </div>
+
+        <div class="form-side flex-box">
+            <h2>Verify Your Email</h2>
+            <p class="mail-text">
+                Enter The Verfifcation Code Sent To Your Email R*************ing@veph.com
+            </p>
+            <div class="otp flex-box">
+                <span>Enter the 6-digit OTP</span>
+                <div class="token flex-box">
+                    <input type="text" name="one" maxlength="1" inputmode="numeric" id="one">
+                    <input type="text" name="two" maxlength="1" inputmode="numeric" id="two">
+                    <input type="text" name="three" maxlength="1" inputmode="numeric" id="three">
+                    <input type="text" name="four" maxlength="1" inputmode="numeric" id="four">
+                    <input type="text" name="five" maxlength="1" inputmode="numeric" id="five">
+                    <input type="text" name="six" maxlength="1" inputmode="numeric" id="six">
+                </div>
+                <div class="resend flex-box"> <i class="fa-solid fa-rotate-left" style="color: #838383;"></i> Resend code</div>
+            </div>
+            <a class="sign-btn" disabled>Sign In</a>
+        </div>
+    </div>
+
+    <div class="modal-loader hide flex-box">
+        <div class="modal flex-box">
+        <div><i class="fa-solid fa-envelope-circle-check" style="color: #52a88a;"></i></div>
+        <h3>Email Verified</h3>
+        <p>Your Email Has Been Successfully Verified. Now <br>
+        You Can Explore Nigeria With Ease.</p>
+
+        <button class="continue">Continue</button>
+    </div>
+    </div>
+
+    <script src="../js/onboarding.js"></script>
+</body>
+</html>

@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: "Hanken Grotesk", serif;
+}
+body {
+    width: 100%;
+}
+.flex-box {
+    display: flex;
+}
+.hero {
+    min-height: 35vh;
+    width: 100%;
+    background: var(--base-white) url(../img/naija-flag.jpg) no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header {
+    height: 10vh;
+}
+.title {
+    text-align: center;
+    align-self: center;
+}
+h2 {
+    font-family: "Old Standard TT", serif;
+    font-size: 4rem;
+    color: var(--base-white);
+}
+.nav-section {
+    padding: 2rem 3rem;
+    justify-content: flex-start;
+}
+.nav-menu {
+    width: 80%;
+    justify-content: space-around;
+}
+.nav-menu a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--sub-text);
+    border-radius: 2rem;
+    padding: 1rem 1.5rem;
+}
+.nav-menu a.active {
+    background-color: var(--landmark-green);
+    color: var(--base-white);
+}
+.nav-menu a:active,
+.nav-menu a:hover {
+    border: 0.1rem solid var(--landmark-green);
+}
+.main-history {
+    justify-content: space-around;
+}
+p {
+    font-size: 1rem;
+}
+h3 {
+    font-size: 2rem;
+}
+li {
+    list-style-position: inside;
+    font-size: 1.125rem;
+    text-align: justify;
+}
+.history-body,
+.left-content,
+.right-content,
+.pre-history,
+.independence,
+.colonial,
+.fact-title {
+    flex-direction: column;
+}
+.left-content,
+.right-content {
+    width: 40%;
+    justify-content: space-around;
+}
+.right-content img {
+    object-fit: cover;
+    border-radius: 2rem;
+    box-shadow: 3px 6px 3px var(--landmark-green);
+}
+.independence,
+.pre-history {
+    width: 90%;
+}
+.left-content h3 {
+    align-self: center;
+    background-color: var(--historic-brown);
+    padding: 0.5rem 1.5rem;
+    text-align: center;
+    color: var(--base-white);
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.colonial h3,
+.fact-title h3 {
+    width: 50%;
+    text-align: center;
+    background-color: var(--landmark-green);
+    padding: 0.5rem 1.5rem;
+    color: var(--base-white);
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.right-content ul,
+.left-content ul,
+.left-content p {
+    padding: 1rem 0;
+}
+.frame{
+    width: 5%;
+}
+.facts {
+    margin: 3rem 0;
+    align-self: center;
+    width: 80%;
+    padding: 2rem 4rem;
+    border-radius: 1.5rem;
+    background-color: var(--input-bg);
+    box-shadow: 3px 6px 3px var(--landmark-green);
+}
+.fact-title,
+.fact-stats {
+    width: 50%;
+    align-self: center;
+}
+.fact-title h3 {
+    margin-bottom: 1rem;
+}
+.fact-stats li {
+    line-height: 3rem;
+}
+
+@media screen and (max-width:1024px){
+    h3 {
+        font-size: 1.8rem;
+    }
+    .facts li {
+        line-height: 2.2rem;
+    }
+}
+@media screen and (max-width:900px) {
+    h3 {
+        font-size: 1.5rem;
+        padding: 1rem !important;
+    }
+    .left-content img,
+    .right-content img {
+        width: 300px;
+        height: 200px;
+    }
+    .independence h3 {
+        align-self: flex-start;
+    }
+    .colonial ul {
+        width: 80%;
+    }
+}
+@media screen and (max-width:820px) {
+    .nav-menu a{
+        font-size: 1.2rem;
+    }
+    h3 {
+        font-size: 1.2rem;
+    }
+    .independence,
+    .pre-history {
+    width: 100%;
+    }
+.facts {
+    width: 90%;
+    }
+
+}
+@media screen and (max-width:700px){
+    .nav-menu {
+        width: 100%;
+    }
+    .nav-menu a{
+        font-size: 1rem;
+    }
+    .left-content img,
+    .right-content img {
+        width: 250px;
+        height: 170px;
+    }
+    li {
+        font-size: 1rem;
+    }
+    .facts {
+        padding: 2rem;
+        border-radius: 1.5rem;
+    }
+}
+
+@media screen and (max-width:600px){
+    .nav-menu {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .left-content img,
+    .right-content img {
+        width: 200px;
+        height: 140px;
+    }
+    .facts {
+        flex-direction: column;
+    }
+    .fact-title,
+    .fact-stats {
+    width: 90%;
+    align-self: center;
+    }
+    .facts br {
+        display: none;
+    }
+}
+@media screen and (max-width:500px){
+    .main-history {
+        flex-direction: column;
+    }
+    .frame{
+        display: none;
+    }
+    .left-content,
+    .right-content {
+        width: 80%;
+        align-self: center;
+        margin-bottom: 1.5rem;
+    }
+    h3 {
+        margin: 1rem 0;
+        align-self: flex-start !important;
+    }
+    .facts {
+        padding: 1rem;
+    }
+}
