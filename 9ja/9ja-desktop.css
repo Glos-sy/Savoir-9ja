@@ -13,6 +13,7 @@ html {
 /* HEADER STYLING */
 header {
     position: relative;
+    font-family: "Old Standard TT", serif;
 }
 
 
@@ -35,6 +36,7 @@ header h1 {
     position: absolute;
     top: 50%;
     right: 15%;
+    font-family: "Old Standard TT", serif;
 }
 
 
