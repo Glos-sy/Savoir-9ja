@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+    --primary: #193028;
+    --sub-text: #2B2B2B;
+    --base-white: #FFFFFF;
+    --sec-white: #FBFBFB;
+    --base-brown: #8A6240;
+    --package-green: #4C6444;
+    --package-cream: #F7F0E6;
+    --ng-green: #26473C;
+    --review-green: #143109;
+    --grey-text: #838383;
+    --black: #000000;
+    --light-green: #B5BFA1;
+    --foundation-orange: #EFE2DA;
+    --opaque-green: #52a88a16;
+    --landmark-green: #2D493f;
+    --rating-gold: #EBBF11;
+    --input-bg: #EAEAEA;
+    --food-grey: #D7CBC4;
+    --historic-brown: #8A6240;
+    --forgot-green: #568575;
+    --onboard-grey: #424242;
+}
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    width: 100%;
+    font-size: 62.5%;
+}
+body {
+    font-family: "Hanken Grotesk", serif;
+}
+.flex-box {
+    display: flex;
+}
+.logo {
+    padding: 1rem 2rem;
+    color: var(--base-white);
+    align-items: center;
+}
+.container {
+    padding: 2rem;
+    gap: 1;
+    justify-content: space-between;
+    height: 100vh;
+}
+.background {
+    position: relative;
+    width: 40%;
+    background-color: #2D493F !important;
+    background: url('../img/bg-form.png') center no-repeat;
+    background-size: contain;
+    border-radius: 1rem;
+    flex-direction: column;
+}
+.background .img {
+    align-self: center;
+    text-align: center;
+    z-index: 2;
+    width: 80%;
+    margin-top: 20%;
+}
+.background .hanger {
+    position: absolute;
+    align-self: center;
+    background-color: #fff;
+    height: 40%;
+    transform: rotate(7deg);
+    width: 0.4rem;
+    top: -1%;
+    right:40%;
+    z-index: 1;
+}
+.background .img img {
+    width: 100%;
+}
+.form-side {
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+    width: 50%;
+    align-items: flex-start;
+}
+.form-content {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    align-items: flex-start;
+}
+.input {
+    width: 100%;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+.form-side .title {
+    align-self: center;
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+form label {
+    color: var(--onboard-grey);
+}
+.form-side ul {
+    color: var(--grey-text);
+    font-size: 1rem;
+    list-style: url(../img/flag-list.png);
+    list-style-position: inside;
+    padding: 0.1rem 0;
+}
+form button {
+    align-self: center;
+    width: 80%;
+    color: var(--base-white);
+    padding: 1rem;
+    border: none;
+    margin-top: 1rem;
+    background-color: var(--ng-green);
+    border-radius: 2rem;
+}
+form button:hover {
+    cursor: pointer;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    border: none;
+    padding: 0.3rem 1rem;
+    margin: 1rem;
+    border-bottom: 0.1rem solid #838383;
+    width: 100%;
+}
+ .accept-terms {
+    padding-left: 1rem;
+    font-weight: 500;
+}
+form input::placeholder {
+    font-style: italic;
+    font-size: 1.178125rem;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+form input[type="password"] {
+    background: url(../img/view-pass.svg) no-repeat right;
+    background-size: 3%;
+}
+.separator {
+    margin-top: 1rem;
+    width: 100%;
+    align-items: center;
+}
+.separator .hr {
+    width: 41%;
+}
+.separator .hr-text {
+    padding: 0 1rem;
+}
+.socials {
+    margin-top: 1rem;
+    align-self: center;
+}
+.socials div {
+    height: 3.125rem;
+    width: 3.125rem;
+    border-radius: 100%;
+    background-color: var(--input-bg);
+    margin-right: 1rem ;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.socials div:hover {
+    cursor: pointer;
+}
+.action {
+    margin-top: 0;
+    align-self: center;
+}
+
+@media screen and (max-width:1254px) {
+    .container {
+        padding: 4rem 1rem;
+        justify-content: space-around;
+    }
+    .background {
+        background-size: cover;
+    }
+    .background .img {
+        width: 100%;
+        margin-top: 40%;
+    } 
+}
+
+@media screen and (max-width:1024px) {
+    .container {
+        padding: 8rem 1rem;
+        justify-content: space-around;
+    }
+    .background .img {
+        width: 100%;
+        margin-top: 50%;
+    } 
+    .separator .hr {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .container {
+        padding: 10rem 1rem;
+        justify-content: space-around;
+    }
+    .background {
+        width: 40%;
+        background-size:60%;
+        background-repeat:repeat-y;
+        background-position: top right;
+    }
+    .background .img {
+        width: 100%;
+        margin-top: 50%;
+    } 
+    form label {
+        font-size: 0.875rem;
+    }  
+}
+
+@media screen and (max-width:600px) {
+    .container {
+        padding: 3rem 2rem;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .background {
+        width: 100%;
+        height: 35%;
+        background-size:60%;
+        background-position: right;
+    }
+    .hanger {
+        height: 10%;
+    }
+    .background .img {
+        margin:0;
+        width: 60%;
+    } 
+    .background .img img {
+        height: 200px;
+    }
+    .form-side {
+        width: 100%;
+        gap: 1rem;
+        align-items: flex-start;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .background {
+        width: 100%;
+        background-size:10%;
+        background-repeat:repeat-x;
+        background-position: bottom right;
+    }
+    .hanger {
+        height: 15%;
+    }
+    .background .img {
+        margin-top: 2%;
+    } 
+
+    .form-side {
+        width: 100%;
+        gap: 2rem;
+        align-items: flex-start;
+        padding: 1rem 2rem;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .background {
+        background-size:15%;
+    }
+    .background .img {
+        width: 100%;
+    } 
+    
+}

@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: "Hanken Grotesk", serif;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+}
+.flex-box {
+    display: flex;
+}
+.hero {
+    position: relative;
+    min-height: 45vh;
+    width: 100%;
+    background: url(../img/nike-art-gallery.png) no-repeat center;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+p.overlay {
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    min-height: 45vh;
+}
+header {
+    height: 10vh;
+}
+.title {
+    text-align: center;
+    align-self: center;
+}
+h2 {
+    font-family: "Old Standard TT", serif;
+    font-size: 4rem;
+    color: #FFF;
+    position: relative;
+}
+.review-info,
+.breakdown,
+.review-range,
+.comment-section,
+.text-content,
+.username{
+    flex-direction: column;
+}
+
+.review-range {
+    align-self: center;
+    width: 70%;
+}
+.review-title {
+    width: 70%;
+    align-self: center;
+}
+.average,
+.breakdown {
+    align-self: center;
+    padding-right: 1rem;
+}
+.total {
+    font-size: 1.125rem;
+}
+.review-title h3 {
+    font-size: 4rem;
+}
+.progress-bar {
+    padding: 0.5rem;
+}
+.review-range .progress-bar input {
+    width: 50%;
+}
+.review-range .progress-bar label {
+    color: #838383;
+    font-weight: 500;
+    display: inline-block;
+    width: 10%;
+    align-self: center;
+    text-align: center;
+}
+.review-range input[type="range"] {
+    appearance: none;
+    overflow: hidden;
+    border-radius: 2rem;
+}
+input[type="range"]::-webkit-slider-runnable-track
+{
+    height: 2rem;
+    background: #d9d9d9;
+    border-radius: 2rem;
+}
+input[type="range"]::-moz-range-track
+{
+    height: 2rem;
+    background: #d9d9d9;
+    border-radius: 2rem;
+}
+input[type="range"]::-webkit-slider-thumb {
+    appearance: none;
+    -webkit-appearance: none;
+    height: 2rem;
+    width: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+input[type="range"]#rate-5::-webkit-slider-thumb {
+    background: #2D493F;
+    box-shadow: -20rem 0 0 18rem #2D493F;
+}
+input[type="range"]#rate-4::-webkit-slider-thumb {
+    background: #10b179;
+    box-shadow: -20rem 0 0 18rem #10b179;
+}
+input[type="range"]#rate-3::-webkit-slider-thumb {
+    background: #EBBF11;
+    box-shadow: -20rem 0 0 18rem #EBBF11;
+}
+input[type="range"]#rate-2::-webkit-slider-thumb {
+    background: #D3982A;
+    box-shadow: -20rem 0 0 18rem #D3982A;
+}
+input[type="range"]#rate-1::-webkit-slider-thumb {
+    background: #E07979;
+    box-shadow: -20rem 0 0 18rem #E07979;
+}
+.comment-section {
+    justify-content: space-around;
+    align-items: center;
+}
+.commenter {
+    padding: 2rem;
+    justify-content: flex-start;
+    width: 70%;
+    background-color: var(--base-white);
+    box-shadow: 3px 6px 3px #EAEAEA;
+    border-radius: 1rem;
+    margin: 2rem 0;
+}
+.photo {
+    height: 5rem;
+    width: 5rem;
+    background: url('../img/userphoto.png') no-repeat center;
+    background-size: cover;
+    border-radius: 100%;
+    margin-right: 2rem;
+}
+.comment {
+    font-size: 1.125rem;
+    line-height: 1.5;
+}
+.username {
+    justify-content: space-between;
+}
+.stars {
+    padding: 0 0 1rem;
+}
+.stars span {
+    padding: 0 1rem;
+}
