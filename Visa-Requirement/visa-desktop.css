@@ -20,9 +20,10 @@ header img {
 /* MAIN SECTION STYLING */
 /* NAV STYLING */
 nav {
-  width: 65%;
-  margin: 3% 5%;
+  margin: 2% 6% 3%;
+  width: 67%;
 }
+
 nav ul {
   display: flex;
   justify-content: space-between;
@@ -30,13 +31,25 @@ nav ul {
 
 nav li {
   list-style-type: none;
-  padding: 2%;
+  padding: 1.3% 2%;
 }
 
 nav a {
   text-decoration: none;
-  font-size: 1.8rem;
+  font-size: 1.9rem;
   color: #2B2B2B;
+}
+
+nav .inactive a:hover, .inactive:hover {
+  background-color: #2d483f;
+  color: white;
+  border-radius: 30px;
+}
+
+.active a, .active {
+  background-color: #2d483f;
+  color: white;
+  border-radius: 30px;
 }
 
 /* OVERVIEW SECTION STYLING */
@@ -154,12 +167,14 @@ nav a {
   font-size: 3.5rem;
   font-weight: 500;
   margin: 1% auto;
+  color: #2B2B2B;
 }
 
 #application-steps .application-steps-txt p,
 #navigating-challenges p {
   font-size: 1.8rem;
   margin: 1% auto;
+  color: #2B2B2B;
 }
 
 .steps {

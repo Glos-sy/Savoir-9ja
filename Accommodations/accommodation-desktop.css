@@ -95,14 +95,14 @@ nav ul {
     height: 100%;
 }
 
-#main-nav .active-main, #main-nav .active-main {
+/* #main-nav .active-main, #main-nav .active-main {
     background-color: #193028;
     color: white;
 }
 
 #main-nav .active-main {
     color: white;
-}
+} */
 
 #sub-nav {
     width: 45%;
