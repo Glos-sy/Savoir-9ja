@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER STYLING */
+header img {
+    width: 100%;
+    height: 37rem;
+}
+
+
+/* MAIN STYLING */
+/* OVERVIEW SECTION STYLING */
+#overview {
+    width: 80%;
+}
+
+#main-nav {
+    width: 75%;
+}
+
+#sub-nav {
+    width: 60%;
+}
+
+/* ACCOMMODATION SECTION STYLING */
+#accommodation-img img {
+    width: 100%;
+    height: 17rem;
+}

@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk", serif;
+    /* background-color: yellow; */
+}
+
+/* HEADER STYLING */
+header img{
+    width: 100%;
+    height: 25rem;
+    position: relative;
+}
+
+header .header-overlay {
+    width: 100%;
+    height: 25rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+}
+
+
+header h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    position: absolute;
+    top: 22%;
+    right: 10%;
+    color: white;
+}
+
+.explore {
+    margin: 3% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: start;
+}
+
+.explore h2 {
+    margin: 4% 0;
+    font-size: 3rem;
+}
+
+.explore input {
+    position: relative;
+    left: -3rem;
+}
+
+.explore-links ul {
+    width: 95%;
+}
+
+
+/* ALL ATTRACTIONS SECTIONS STYLING */
+.a-c-attractions-a, .a-c-attractions-b, .a-c-attractions-c, .beach-img-a, .beach-img-b, .beach-img-c, .museum-img-a, .museum-img-b, .museum-img-c, .adventure-img-a, .adventure-img-b, .adventure-img-c, .hiking-img-a, .hiking-img-b, .hiking-img-c, .park-img-a, .park-img-b, .park-img-c {
+    background-color: #183028;
+    width: 95%;
+    border-radius: 15px;
+    height: 34rem;
+    color: white;
+    position: relative;
+    margin: 4% auto;
+}
+
+.a-c-attractions-a img, .a-c-attractions-b img, .a-c-attractions-c img, .beach-img-a img, .beach-img-b img, .beach-img-c img, .museum-img-a img, .museum-img-b img, .museum-img-c img, .adventure-img-a img, .adventure-img-b img, .adventure-img-c img, .hiking-img-a img, .hiking-img-b img, .hiking-img-c img, .park-img-a img, .park-img-b img, .park-img-c img {
+    display: block;
+    width: 90%;
+    margin: 4.5% auto;
+    border-radius: 10px;
+    height: 25rem;
+}

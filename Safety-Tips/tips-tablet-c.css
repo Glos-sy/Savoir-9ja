@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk", serif;
+    /* background-color: yellow; */
+}
+
+
+/* HEADER STYLING */
+header {
+    background-color: #2d483f;
+    width: 100%;
+    height: 35rem;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+header h2 {
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin: 1.5% 0;
+}
+
+main {
+    margin-bottom: -100rem;
+}
+
+
+/* CONSIDER SECTION STYLING */
+.consider-txt {
+    margin: 4% auto;
+    text-align: center;
+    width: 90%;
+}
+
+#consider img {
+    margin-top: -2rem;
+    width: 22%;
+    height: 22rem;
+    display: none;
+}
+
+.consider-txt h2 {
+    font-size: 3.5rem;
+    margin: 2% auto;
+}
+
+.consider-txt p {
+    font-size: 1.8rem;
+}
+
+
+/* TIPS SECTION STYLING */
+#tips {
+    max-height: 400rem;
+    overflow: hidden;
+}
+#tips .tips-a {
+    /* width: 70%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#tips .tips-b {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+}
+
+#tips .tips-a .brown::before {
+    content: "\2B22";
+    color: #8a623f;
+    font-size: 70rem;
+}
+
+#tips .tips-a .darkgreen::before {
+    content: "\2B22";
+    color: #193028;
+    font-size: 70rem;
+}
+
+#tips .tips-a .lightgreen::before {
+    content: "\2B22";
+    color: #326d59;
+    font-size: 70rem;
+}
+
+#tips .poly-e::before {
+    content: "\2B22";
+    color: #193028;
+    font-size: 70rem;
+}
+
+#tips .poly-f::before, #tips .poly-d::before {
+    content: "\2B22";
+    color: #8a623f;
+    font-size: 70rem;
+}
+
+#tips h3 {
+    font-size: 3.5rem;
+    margin: 4%;
+}
+
+#tips p, #tips li {
+    font-size: 2rem;
+}
+
+.poly-a {
+    position: relative;
+    right: 0;
+    top: -10rem;
+}
+
+.poly-a-txt {
+    color: white;
+    width: 65%;
+    position: absolute;
+    top: 43%;
+    right: 17%;
+}
+
+.poly-b {
+    position: relative;
+    top: -40rem;
+}
+
+.poly-b-txt {
+    color: white;
+    width: 65%;
+    position: absolute;
+    top: 43%;
+    right: 16%;
+}
+
+.poly-c {
+    position: relative;
+    right: -0.5rem;
+    top: -70rem;
+}
+
+.poly-c-txt {
+    color: white;
+    width: 65%;
+    position: absolute;
+    top: 42%;
+    right: 16%;
+}
+
+.poly-d {
+    position: relative;
+    right: 0;
+    top: -78rem;
+}
+
+.poly-d-txt {
+    position: absolute;
+    color: white;
+    width: 65%;
+    position: absolute;
+    top: 45%;
+    right: 15.6%;
+}
+
+.poly-e {
+    position: relative;
+    right: 0;
+    top: -108rem;
+}
+
+.poly-e-txt {
+    position: absolute;
+    color: white;
+    width: 65%;
+    position: absolute;
+    top: 43%;
+    right: 16%;
+}
+
+.poly-f {
+    position: relative;
+    right: 4rem;
+    top: -115rem;
+}
+
+.poly-f-txt {
+    position: absolute;
+    color: white;
+    width: 65%;
+    position: absolute;
+    top: 44%;
+    right: 18%;
+}
+
+#tips-img {
+    position: relative;
+    top: -32rem;
+    right: 40rem;
+    display: none;
+}
+
+
+
+/* SECURITY SECTION STYLING */
+#security {
+    margin: 14% 0;
+    overflow: hidden;
+}
+.security-img {
+    display: none;
+}
+
+#security h3 {
+    font-size: 2rem;
+    margin: 2% 0;
+}
+
+#security p {
+    font-size: 1.5rem;
+}

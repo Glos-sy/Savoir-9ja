@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk", serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+/* HEADER STYLING */
+header {
+    background-color: #2d483f;
+    width: 100%;
+    height: 50rem;
+    color: #ffffff;
+    margin: 0 auto 2.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 12.5% 0 0;
+    color: white;
+}
+
+header h1 {
+    font-size: 6rem;
+    font-weight: 500;
+    color: white;
+}
+
+header h2 {
+    font-size: 2.2rem;
+    font-weight: 300;
+    margin: 1.5% 0;
+    color: white;
+}
+
+
+/* MAIN STYLING */
+nav {
+    margin: 0 6% 3%;
+    width: 67%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    list-style-type: none;
+    padding: 1.5% 2%;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.9rem;
+    color: #2B2B2B;
+}
+
+nav a:hover, nav li:hover {
+    background-color: #2d483f;
+    color: white;
+    border-radius: 30px;
+}
+
+
+/* CONSIDER SECTION STYLING */
+#consider {
+    margin: 0 7%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.consider-txt {
+    margin: 4% auto;
+    text-align: center;
+    width: 60%;
+}
+
+
+.consider-txt h2 {
+    font-size: 3.5rem;
+    margin: 2% auto;
+}
+
+.consider-txt p {
+    font-size: 1.8rem;
+}
+
+
+/* TIPS SECTION STYLING */
+#tips {
+    /* color: white; */
+    margin: -19% 7% -17% 9%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#tips h3 {
+    font-size: 2.5rem;
+    margin: 4%;
+}
+
+#tips p, #tips li {
+    font-size: 1.8rem;
+}
+
+#tips li {
+    list-style-type: none;
+}
+
+#tips .tips-a {
+    /* width: 70%; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.poly-a {
+    position: relative;
+    right: -5rem;
+}
+
+.poly-a-txt {
+    color: white;
+    width: 65%;
+    position: absolute;
+    top: 42%;
+    right: 18%;
+}
+
+.poly-b {
+    position: relative;
+}
+
+.poly-b-txt {
+    color: white;
+    width: 65%;
+    position: absolute;
+    top: 43%;
+    right: 16%;
+}
+
+.poly-c {
+    position: relative;
+    right: 5rem;
+}
+
+.poly-c-txt {
+    color: white;
+    width: 65%;
+    position: absolute;
+    top: 42%;
+    right: 16%;
+}
+
+#tips .tips-b {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    right: 1%;
+    top: -37rem;
+}
+
+.poly-d {
+    position: relative;
+    right: -3.2rem;
+}
+
+.poly-d-txt {
+    position: absolute;
+    color: white;
+    width: 65%;
+    position: absolute;
+    top: 44%;
+    right: 13.6%;
+}
+
+.poly-e {
+    position: relative;
+    right: 0.5rem;
+}
+
+.poly-e-txt {
+    position: absolute;
+    color: white;
+    width: 65%;
+    position: absolute;
+    top: 42%;
+    right: 15%;
+}
+
+.tips-c {
+    margin: -73rem auto -15%;
+}
+
+.poly-f {
+    position: relative;
+    right: -1%;
+}
+
+.poly-f-txt {
+    position: absolute;
+    color: white;
+    width: 65%;
+    position: absolute;
+    top: 42%;
+    right: 15%;
+}
+
+#tips .tips-a .brown::before {
+    content: "\2B22";
+    color: #8a623f;
+    font-size: 52rem;
+}
+
+#tips .tips-a .darkgreen::before {
+    content: "\2B22";
+    color: #193028;
+    font-size: 52rem;
+}
+
+#tips .tips-a .lightgreen::before {
+    content: "\2B22";
+    color: #326d59;
+    font-size: 52rem;
+}
+
+#tips .poly-e::before {
+    content: "\2B22";
+    color: #193028;
+    font-size: 52rem;
+}
+
+#tips .poly-f::before, #tips .poly-d::before {
+    content: "\2B22";
+    color: #8a623f;
+    font-size: 52rem;
+}
+
+#tips-img {
+    position: relative;
+    top: -32rem;
+    right: 40rem;
+}
+
+
+/* SECURITY SECTION STYLING */
+#security {
+    display: flex;
+    justify-content: space-between;
+    background-color: #8a623f;
+}
+
+#security .security-txt {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3%;
+    border-left: 1px dashed white;
+}
+
+.security-txt-a, .security-txt-b, .security-txt-c {
+    width: 80%;
+    margin: 3% auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: white;
+    padding: 4%;
+    text-align: left;
+    border-radius: 10px;
+}
+
+#security h3 {
+    font-size: 2rem;
+    margin: 2% 0;
+}
+
+#security p {
+    font-size: 1.5rem;
+}
+
+.first-security-img {
+    width: 88%;
+    height: 40rem;
+}
+
+.second-security-img {
+    margin: 3% 5% 0;
+}

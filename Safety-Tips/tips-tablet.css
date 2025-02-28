@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk", serif;
+    /* background-color: yellow; */
+}
+
+
+/* HEADER STYLING */
+header {
+    padding: 15% 0 0;
+}
+
+/* MAIN STYLING */
+nav {
+    margin: 0 6% 3%;
+    width: 75%;
+}
+
+
+/* CONSIDER SECTION STYLING */
+#consider {
+    margin: 5% 5.3% 0;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.consider-txt {
+    margin: 7% auto;
+    text-align: center;
+    width: 60%;
+}
+
+#consider img {
+    margin-top: -2rem;
+}
+
+
+
+/* TIPS SECTION STYLING */
+#tips .tips-a .brown::before {
+    content: "\2B22";
+    color: #8a623f;
+    font-size: 39rem;
+}
+
+#tips .tips-a .darkgreen::before {
+    content: "\2B22";
+    color: #193028;
+    font-size: 39rem;
+}
+
+#tips .tips-a .lightgreen::before {
+    content: "\2B22";
+    color: #326d59;
+    font-size: 39rem;
+}
+
+#tips .poly-e::before {
+    content: "\2B22";
+    color: #193028;
+    font-size: 39rem;
+}
+
+#tips .poly-f::before, #tips .poly-d::before {
+    content: "\2B22";
+    color: #8a623f;
+    font-size: 39rem;
+}
+
+#tips h3 {
+    font-size: 2rem;
+    margin: 4%;
+}
+
+#tips p, #tips li {
+    font-size: 1.5rem;
+}
+
+#tips .tips-b {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    right: 1%;
+    top: -27rem;
+}
+
+.poly-c-txt {
+    color: white;
+    width: 65%;
+    position: absolute;
+    top: 40%;
+    right: 16%;
+}
+
+.poly-e-txt {
+    position: absolute;
+    color: white;
+    width: 65%;
+    position: absolute;
+    top: 40%;
+    right: 15%;
+}
+
+.poly-f-txt {
+    position: absolute;
+    color: white;
+    width: 65%;
+    position: absolute;
+    top: 40%;
+    right: 15%;
+}
+
+.tips-c {
+    margin: -54rem auto -15%;
+}
+
+#tips-img {
+    width: 48%;
+    position: relative;
+    top: -26rem;
+    right: 30rem;
+}
+
+
+/* SECURITY SECTION STYLING */
+#security .security-txt {
+    width: 90%;
+}
+
+.first-security-img {
+    width: 85%;
+    height: 40rem;
+}
+
+.second-security-img {
+    width: 85%;
+    margin: 3% 3.5% 0;
+}
+
+#security h3 {
+    font-size: 1.9rem;
+    margin: 2% 0;
+}
+
+#security p {
+    font-size: 1.4rem;
+}

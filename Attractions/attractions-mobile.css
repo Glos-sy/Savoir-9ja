@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk", serif;
+    /* background-color: yellow; */
+}
+
+/* HEADER STYLING */
+header img{
+    width: 100%;
+    height: 35rem;
+    position: relative;
+}
+
+header .header-overlay {
+    width: 100%;
+    height: 35rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 3.2rem;
+    position: absolute;
+    top: 33%;
+    right: 10%;
+    color: white;
+}
+
+
+/* MAIN STYLING */
+main {
+    margin: 1% 3.5%;
+}
+
+
+
+/* EXPLORE SECTION STYLING */
+#explore-section {
+    margin: 5% auto;
+}
+
+.explore-search input {
+    width: 105%;
+    padding: 1.5rem 4rem;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 30px;
+    font-size: 1.4rem;
+    margin-left: -2%;
+}
+
+.explore-links ul {
+    margin-top: 6%;
+    width: 75%;
+}
+
+.explore-links ul li {
+    list-style-type: none;
+    padding: 2% 2.8%;
+    border: 1px solid black;
+    border-radius: 30px;
+    font-size: 2rem;
+}
+
+
+
+/* POPULAR ATTRACTIONS SECTION STYLING */
+#popular-attractions h1 {
+    margin: 10% 2% 0;
+    font-size: 2rem;
+}
+
+.p-attractions-img {
+    margin: 2% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.p-attractions-img img {
+    margin: 4% 0;
+}
+
+.p-attractions-one, .p-attractions-three {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.p-attractions-one-a {
+    height: 50rem;
+}
+
+.p-attractions-one-b {
+    display: none;
+}
+
+.p-attractions-two-a #img-a, .p-attractions-two-a #img-b {
+    width: 85%;
+    margin: 0 4%;
+    height: 29rem;
+}
+
+.p-attractions-two-a {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    right: -1.7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.p-attractions-two-b img {
+    display: none;
+}
+
+.a-three-img-b {
+    display: none;
+}
+
+
+/* ALL ATTRACTIONS SECTIONS STYLING */
+#art-cultural-attractions {
+    margin: 12% 0 5%;
+    width: 100%;
+}
+
+.a-c-attractions-img, .beach-img, .museum-img, .adventure-img, .hiking-img, .park-img {
+    margin: 0 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.a-c-attractions-a, .a-c-attractions-b, .a-c-attractions-c, .beach-img-a, .beach-img-b, .beach-img-c, .museum-img-a, .museum-img-b, .museum-img-c, .adventure-img-a, .adventure-img-b, .adventure-img-c, .hiking-img-a, .hiking-img-b, .hiking-img-c, .park-img-a, .park-img-b, .park-img-c {
+    background-color: #183028;
+    width: 95%;
+    border-radius: 15px;
+    height: 41rem;
+    color: white;
+    position: relative;
+    margin: 4% auto;
+}
+
+.a-c-attractions-a img, .a-c-attractions-b img, .a-c-attractions-c img, .beach-img-a img, .beach-img-b img, .beach-img-c img, .museum-img-a img, .museum-img-b img, .museum-img-c img, .adventure-img-a img, .adventure-img-b img, .adventure-img-c img, .hiking-img-a img, .hiking-img-b img, .hiking-img-c img, .park-img-a img, .park-img-b img, .park-img-c img {
+    display: block;
+    width: 90%;
+    margin: 4.5% auto;
+    border-radius: 10px;
+    height: 30rem;
+}
+
+.a-c-attractions-img h1, .beach-img h1, .museum-img h1, .adventure-img h1, .hiking-img h1, .park-img h1 {
+    font-size: 1.8rem;
+}
+
+.a-c-attractions-img p, .beach-img p, .museum-img p, .adventure-img p, .hiking-img p, .park-img p {
+    font-size: 1.3rem;
+}
+
+.a-c-attractions-txt h1, .beach-txt h1, .museum-txt h1, .adventure-txt h1, .hiking-txt h1, .park-txt h1 {
+    font-size: 2rem;
+}

@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk", serif;
+}
+
+/* GENERAL STYLING */
+html {
+    font-size: 62.5%;
+}
+
+/* #183028
+#e9ba05
+64px(h1), 12px(LOGO)
+16px, 14px(location green square) */
+
+
+
+/* HEADER STYLING */
+header img{
+    width: 100%;
+    height: 58rem;
+    position: relative;
+}
+
+header .header-overlay {
+    width: 100%;
+    height: 58rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 5rem;
+    position: absolute;
+    top: 42%;
+    right: 22.5%;
+    color: white;
+}
+
+
+/* MAIN STYLING */
+main {
+    margin: 1% 5.5% 7%;
+}
+
+
+/* EXPLORE SECTION STYLING */
+#explore-section {
+    margin: 3% auto;
+}
+
+.explore {
+    margin: 3% auto;
+    display: flex;
+    align-items: center;
+}
+
+.explore h2 {
+    font-size: 1.8rem;
+}
+
+.explore-search {
+    margin-left: 3rem;
+}
+
+.explore-search input {
+    width: 110%;
+    padding: 1.8rem 4rem;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 30px;
+    font-size: 1.5rem;
+}
+
+.explore-search input:focus {
+    outline: nones;
+}
+
+.explore-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+}
+
+.explore-links ul {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.explore-links ul li {
+    list-style-type: none;
+    padding: 1.6% 2.8%;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+
+/* POPULAR ATTRACTIONS SECTION STYLING */
+.p-attractions-img {
+    margin: 2% auto;
+    display: flex;
+    justify-content: space-between;
+    height: 71rem;
+}
+
+#popular-attractions img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.p-attractions-one-a {
+    height: 40rem;
+}
+
+.p-attractions-one-b, .a-three-img-b {
+    height: 28.8rem;
+}
+
+.p-attractions-two-b img {
+    height: 40rem;
+}
+
+.p-attractions-one, .p-attractions-three {
+    width: 21%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.p-attractions-two {
+    width: 54%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.p-attractions-two-a {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.p-attractions-two-a #img-a, .p-attractions-two-a #img-b {
+    width: 48.1%;
+    height: 29rem;
+}
+
+
+
+/* ALL ATTRACTIONS SECTIONS STYLING */
+.section-main-header{
+    font-size: 1.8rem;
+}
+
+#art-cultural-attractions {
+    margin: 5% 0;
+    width: 100%;
+}
+
+.a-c-attractions-img, .beach-img, .museum-img, .adventure-img, .hiking-img, .park-img {
+    margin: 0 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.a-c-attractions-img h1, .beach-img h1, .museum-img h1, .adventure-img h1, .hiking-img h1, .park-img h1 {
+    font-size: 1.55rem;
+}
+
+.a-c-attractions-img p, .beach-img p, .museum-img p, .adventure-img p, .hiking-img p, .park-img p {
+    font-size: 1.2rem;
+}
+
+.a-c-attractions-txt, .beach-txt, .museum-txt, .adventure-txt, .hiking-txt, .park-txt {
+    width: 97%;
+    margin: 5% auto 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.a-c-attractions-txt h1, .beach-txt h1, .museum-txt h1, .adventure-txt h1, .hiking-txt h1, .park-txt h1 {
+    font-size: 1.8rem;
+}
+
+.a-c-attractions-txt a, .beach-txt a, .museum-txt a, .adventure-txt a, .hiking-txt a, .park-txt a {
+    font-size: 1.4rem;
+}
+
+.a-c-attractions-a, .a-c-attractions-b, .a-c-attractions-c, .beach-img-a, .beach-img-b, .beach-img-c, .museum-img-a, .museum-img-b, .museum-img-c, .adventure-img-a, .adventure-img-b, .adventure-img-c, .hiking-img-a, .hiking-img-b, .hiking-img-c, .park-img-a, .park-img-b, .park-img-c {
+    background-color: #183028;
+    width: 30%;
+    border-radius: 15px;
+    height: 32rem;
+    color: white;
+    position: relative;
+    transition: height 0.3s ease;
+}
+
+/* .a-c-attractions-a::after:hover, .a-c-attractions-b::after:hover, .a-c-attractions-c::after:hover, .beach-img-a::after:hover, .beach-img-b::after:hover,
+.beach-img-c::after:hover, .museum-img-a::after, .museum-img-b::after, .museum-img-c::after, .adventure-img-a::after:hover, .adventure-img-b::after:hover, .adventure-img-c::after:hover,
+.hiking-img-a::after:hover, .hiking-img-b::after:hover, .hiking-img-c::after:hover, .park-img-a::after:hover, .park-img-b::after:hover, .park-img-c::after:hover {
+    content: "";
+    position: absolute;
+    height: 52rem;
+} */
+
+
+.a-c-attractions-a:hover, .a-c-attractions-b:hover, .a-c-attractions-c:hover, .beach-img-a:hover, .beach-img-b:hover, .beach-img-c:hover, .museum-img-a:hover,
+.museum-img-b:hover, .museum-img-c:hover, .adventure-img-a:hover, .adventure-img-b:hover, .adventure-img-c:hover, .hiking-img-a:hover, .hiking-img-b:hover,
+.hiking-img-c:hover, .park-img-a:hover, .park-img-b:hover, .park-img-c:hover {
+    height: 35rem;
+    cursor: pointer;
+}
+
+
+.a-c-attractions-a img, .a-c-attractions-b img, .a-c-attractions-c img, .beach-img-a img, .beach-img-b img, .beach-img-c img, .museum-img-a img, .museum-img-b img, .museum-img-c img, .adventure-img-a img, .adventure-img-b img, .adventure-img-c img, .hiking-img-a img, .hiking-img-b img, .hiking-img-c img, .park-img-a img, .park-img-b img, .park-img-c img {
+    display: block;
+    width: 91%;
+    margin: 4.5% auto;
+    border-radius: 10px;
+    height: 23rem;
+}
+
+[class*="title"] {
+    margin: 2% 5.2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+[class*="location"] {
+    margin: 2% 5%;
+    display: flex;
+}
+
+
+/* ICONS STYLING */
+i .fa-star {
+    color: #e9ba05;
+    background-color: #e9ba05;
+}

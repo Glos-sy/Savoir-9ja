@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk", serif;
+    /* background-color: yellow; */
+}
+
+
+/* POPULAR ATTRACTIONS SECTION STYLING */
+.p-attractions-img {
+    margin: 2% auto;
+    display: flex;
+    justify-content: space-between;
+    height: 61rem;
+}
+
+.p-attractions-one-a {
+    height: 30rem;
+}
+
+.p-attractions-two-b img {
+    height: 30rem;
+}
+
+
+.a-c-attractions-a, .a-c-attractions-b, .a-c-attractions-c, .beach-img-a, .beach-img-b, .beach-img-c, .museum-img-a, .museum-img-b, .museum-img-c, .adventure-img-a, .adventure-img-b, .adventure-img-c, .hiking-img-a, .hiking-img-b, .hiking-img-c, .park-img-a, .park-img-b, .park-img-c {
+    background-color: #183028;
+    width: 30%;
+    border-radius: 15px;
+    height: 28rem;
+    color: white;
+    position: relative;
+}
+
+.a-c-attractions-a img, .a-c-attractions-b img, .a-c-attractions-c img, .beach-img-a img, .beach-img-b img, .beach-img-c img, .museum-img-a img, .museum-img-b img, .museum-img-c img, .adventure-img-a img, .adventure-img-b img, .adventure-img-c img, .hiking-img-a img, .hiking-img-b img, .hiking-img-c img, .park-img-a img, .park-img-b img, .park-img-c img {
+    display: block;
+    width: 91%;
+    margin: 4.5% auto;
+    border-radius: 10px;
+    height: 20rem;
+}
