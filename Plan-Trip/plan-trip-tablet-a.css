@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk", serif;
+    /* background-color: yellow; */
+}
+
+
+/* MAIN STYLING */
+main {
+    width: 92%;
+    margin: 0 auto 5%;
+}
+
+.nav-one {
+    width: 90%;
+    margin: 3% 0;
+}
+
+.nav-two {
+    width: 35%;
+    margin: 3% 1.2% 5%;
+}
+
+
+/* FORM STYLING */
+form {
+    width: 75%;
+    margin: 1% auto;
+    padding: 3.8% 4.5% 5%;
+}
+
+.trip-name {
+    margin-bottom: 3%
+}
+
+.date-spending .spending-input, .date-spending .date-input {
+    margin: 3% 0 12%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.date-spending .date-input input {
+    margin: 5% 0;
+}
+
+.date-spending .date-input .d-i {
+   margin: 4% auto;
+}
+
+.spending-habit .spending-input {
+    margin: 1.7% 0 6%;
+}
+
+.spending-habit .spending-input label {
+    margin-right: 4%;
+}

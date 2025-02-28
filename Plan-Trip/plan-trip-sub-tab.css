@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk", serif;
+    /* background-color: yellow; */
+}
+
+.spending-input-a {
+    flex-wrap: wrap;
+}
+
+.spending-input-a label {
+    font-size: 1.7rem;
+}
+
+.min-spending input, .max-spending input {
+    width: 200%;
+    padding: 5% 8%;
+    margin: 0.3rem 1rem;
+}
+
+.max-spending {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 0;
+    font-size: 1.5rem;
+}
+
+.spending-input-a {
+    margin: 1rem;
+}
+
+.spending-input-a span {
+    font-size: 1.5rem;
+    position: relative;
+    right: 0rem;
+}
+
+.min-spending {
+    margin: 6% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}

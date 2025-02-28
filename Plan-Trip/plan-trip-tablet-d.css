@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk", serif;
+    /* background-color: yellow; */
+}
+
+/* HEADER STYLING */
+header img {
+    width: 100%;
+    height: 27.5rem;
+    margin-bottom: 2%;
+}
+
+
+/* MAIN STYLING */
+.nav-one a {
+    font-size: 2rem;
+}
+
+.nav-two a {
+    font-size: 1.55rem;
+}
+
+
+/* FORM STYLING */
+form {
+    width: 93%;
+    margin: 10% auto 1%;
+    padding: 5% 4%;
+}

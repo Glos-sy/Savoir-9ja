@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #2B2B2B;
+    font-family: "Hanken Grotesk", serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+/* HEADER STYLING */
+header img {
+    width: 100%;
+}
+
+
+/* MAIN STYLING */
+main {
+    width: 90%;
+    margin: 0 auto 5%;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-one {
+    width: 70%;
+    margin: 3% 0;
+}
+
+.nav-one li {
+    padding: 1.1% 2.3%;
+    border-radius: 20rem;
+}
+
+.nav-one li:hover, .nav-one a:hover  {
+    color: white;
+    background-color: #193028;
+}
+
+.active-li {
+    padding: 1.1rem 2.3rem;
+    color: white;
+    background-color: #193028;
+    border-radius: 20rem;
+}
+
+.nav-two {
+    width: 25%;
+    margin: 3% 1.2% 5%;
+}
+
+.nav-two a {
+    color: black;
+}
+
+.nav-two .faded-li {
+    color: rgb(91, 91, 91);
+}
+
+.solid-li {
+    padding-bottom: 2%;
+    border-bottom: 4px solid #193028;
+}
+
+
+/* FORM STYLING */
+form {
+    width: 70%;
+    margin: 1% auto;
+    padding: 3.8% 5% 5%;
+    background-color: #fbfbfb;
+    border-radius: 15px;
+    border: 1px solid #d1d1d1;
+}
+
+form label {
+    font-size: 1.8rem;
+}
+
+form input {
+    border-radius: 10px;
+    border-color: #EAEAEA;
+}
+
+.trip-name input {
+    margin: 1.5% 0 3.5%;
+    width: 100%;
+    padding: 2% 3%;
+    border-color: #EAEAEA;
+}
+
+.date-spending {
+    display: flex;
+    justify-content: space-between;
+}
+
+.date-spending div {
+    width: 48%;
+    border-color: #EAEAEA;
+}
+
+.date-spending .spending-input, .date-spending .date-input, .spending-input-a {
+    margin: 3% 0 12%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.date-spending .date-input .d-i {
+    margin-right: 6%;
+    font-size: 1.5rem;
+}
+
+.date-spending .date-input input {
+    padding: 4% 2.2%;
+    border-radius: 9px;
+}
+
+
+/* SPENDING SECTION STYLING */
+.spending-habit .spending-input {
+    margin: 1.7% 0 6%;
+}
+
+.spending-input label {
+    margin: 0.2rem 5rem 0.2rem 0.8rem;
+}
+
+.min-spending input, .max-spending input {
+    width: 110%;
+    padding: 5% 8%;
+    margin: 0.3rem 1rem;
+}
+
+.max-spending {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    right: -3rem;
+    font-size: 1.5rem;
+}
+
+.spending-input-a {
+    margin: 1rem;
+}
+
+.spending-input-a span {
+    font-size: 1.5rem;
+    position: relative;
+    right: -1.4rem;
+}
+
+.min-spending {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+
+.interest .interest-input {
+    margin: 1.7% 0 5%;
+}
+
+.interest-input {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.interest-input input {
+    font-size: 1.8rem;
+    margin: 1.5% 0.5%;
+    padding: 1.5% 2%;
+    border-radius: 25px;
+    border-color: #EAEAEA;
+    background-color: transparent;
+}
+
+
+.stay .stay-input {
+    margin: 2% 0;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hotel, .apartment, .hotels {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hotel .hotel-img, .apartments .apartments-img, .hotels .hotels-img {
+    width: 5rem;
+    height: 5rem;
+    background-color: #e0e0e0;
+    background-color: rgb(232, 231, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+}
+
+.hotel .hotel-img:hover, .apartments .apartments-img:hover, .hotels .hotels-img:hover {
+    cursor: pointer;
+    width: 5.5rem;
+    height: 5.5rem;
+}
+
+.hotel .hotel-img:active, .apartments .apartments-img:active, .hotels .hotels-img:active {
+    background-color: #d1d1d1;
+    width: 5.5rem;
+    height: 5.5rem;
+}
+
+textarea {
+    resize: none;
+    margin: 4% 0;
+    width: 75%;
+    height: 17rem;
+    padding: 3%;
+    border-radius: 12px;
+    font-size: 1.6rem;
+    border-color: #d1d1d1;
+    background-color: transparent;
+}
+
+.submit-button {
+    display: block;
+    margin: 0 auto;
+    font-size: 1.8rem;
+    padding: 1.6% 4%;
+    border-radius: 30px;
+    background-color: #193028;
+    color: white;
+    border: none;
+}
+
+.submit-button:hover {
+    cursor: pointer;
+}
