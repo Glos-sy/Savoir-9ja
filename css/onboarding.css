@@ -34,7 +34,7 @@ html {
     font-size: 62.5%;
 }
 body {
-    font-family: "Hanken Grotesk", serif;
+    font-family: "Hanken Grotesk", sans-serif;
 }
 .flex-box {
     display: flex;
