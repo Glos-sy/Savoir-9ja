@@ -19,15 +19,13 @@ window.addEventListener(("DOMContentLoaded"), ()=>{
 });
 
 
-
-const hideModal = ()=>{
     modal_close.addEventListener('click', ()=> {
         setTimeout(() => {
             modal.classList.add("hide");
         }, 1000);
         window.location = "../index.html";
     });
-};
+
 
 const showModal = ()=>{
     setTimeout(() => {
