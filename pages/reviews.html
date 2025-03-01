@@ -5,17 +5,54 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Savoir 9ja</title>
         <link rel="stylesheet" href="../css/reviews.css">
+        <link rel="stylesheet" href="../css/nav.css">
         <script src="https://kit.fontawesome.com/cce7b28744.js" crossorigin="anonymous"></script>
         <link rel="shortcut icon" href="../img/game-icons_nigeria.png" type="image/x-icon">
     </head>
 <body>
     <div class="hero flex-box">
         <p class="overlay"></p>
-        <header></header>
+        <header class="pages">
+            <div class="nav-section flex-box">
+                <div class="logo flex-box">
+                    <img src="../img/game-icons_nigeria.png" alt="Savoir 9ja Logo">
+                    <p>Savoir 9ja</p>
+                </div>
+                <nav class="nav-links flex-box">
+                    <a href="../index.html">Home</a>
+                    <a href="../pages/attractions.html">Attractions</a>
+                    <a href="./history.html">9JA</a>
+                    <a href="./reviews.html" class="nav-active">Reviews</a>
+                    <a href="./create_account.html">More</a>
+                </nav>
+                <div class="nav-btn flex-box">
+                    <a href="#" style="font-weight: bold; display: inline-block;">Explore Now <i>↗</i></a>
+                </div> 
+            </div>
+            
+        </header>    
 
         <div class="title flex-box">
             <h2>Reviews</h2>
         </div>
+    </div>
+    <div class="home-burger flex-box">
+        <div class="mini-logo flex-box">
+            <img src="../img/game-icons_nigeria.png" class="mini-logo"/><span>Savoir 9ja</span>
+        </div>
+            <i class="fa-solid fa-bars"></i>    
+    </div>
+    <div class="burger-section flex-box">
+        <div class="nav-links flex-box">
+            <a href="../index.html">Home</a>
+            <a href="../pages/attrations.html">Attractions</a>
+            <a href="../pages/history.html">9JA</a>
+            <a href="../pages/reviews.html" class="burger-active">Reviews</a>
+            <a href="../pages/create_account.html">More</a>
+        </div>
+        <div class="nav-btn flex-box">
+            <a href="#" style="font-weight: bold; display: inline-block;">Explore Now <i>↗</i></a>
+        </div> 
     </div>
 
     <div class="review-info flex-box">
@@ -176,6 +213,6 @@
             </div>
         </div>
     </div>
-
+    <script src="../js/nav.js"></script>
 </body>
 </html>

@@ -22,7 +22,7 @@
 }
 html {
     font-size: 62.5%;
-    font-family: "Hanken Grotesk", serif;
+    font-family: "Hanken Grotesk", sans-serif;
 }
 body {
     position: relative;
@@ -32,10 +32,7 @@ body {
     display: flex;
 }
 header.pages {
-    margin-left: 28%;
-    position: absolute;
-    padding-top: 1rem;
-    background: var(--opaque-green);
+    padding-top: 0.1rem;
 }
 header .nav-section {
     align-self: center;
@@ -45,6 +42,15 @@ header .nav-section {
     background-color: var(--primary);
     width: 51.8125rem;
     justify-content: space-around;
+}
+.hide {
+    display: none !important;
+}
+.home-burger {
+    display: none;
+}
+.burger-section {
+    display: none;
 }
 .nav-section .logo {
     color: var(--base-white);
@@ -82,9 +88,14 @@ header .nav-section {
 .nav-section .nav-btn a {
     color: var(--primary);
 }
-header {
-    background: var(--opaque-green);
+a.nav-active {
+    text-decoration: underline !important;
 }
+.mid-nav-section a.mid-active {
+    background-color: var(--landmark-green);
+    color: var(--base-white);
+}
+
 
 @media screen and (max-width:500px) {
     body {
@@ -94,10 +105,9 @@ header {
         display: none;
     }
     header {
+        width: 100%;
+        position: relative;
         padding-top: 0;
-    }
-    .hide {
-        display: none !important;
     }
     .burger-section {
         display: flex;
@@ -105,14 +115,37 @@ header {
         justify-content: space-around;
         width: 100%;
         padding: 1rem;
-        height: 35vh;
-        background: var(--package-green);
+        min-height: 50vh;
+        background: var(--landmark-green);
         position: absolute;
-        top: 7rem;
+        top: 6.2rem;
+    }
+    .burger-active {
+        background-color: var(--base-white);
+        color: var(--landmark-green) !important;
+    }
+    .fa-solid:hover {
+        cursor: pointer;
     }
     .fa-bars {
         font-size: 2.5rem;
     }
+    .home-burger {
+        display: flex !important;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        min-height: 10vh;
+        padding: 0.5rem;
+        align-items: center;
+        justify-content: space-between;
+        background-color: var(--landmark-green);
+        color: var(--base-white);
+    }
+    .mini-logo {
+        align-items: center;
+    }
+
     .burger-menu {
         width: 100%;
         display: flex;
@@ -124,7 +157,7 @@ header {
         color: var(--sec-white);
     }
     .burger-menu span {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         display: inline-block;
     }
     .nav-links {
@@ -132,11 +165,15 @@ header {
     }
     .nav-links a {
         color: var(--sec-white);
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         display: block;
-        padding: 1.5rem 0;
+        padding: 1rem 0;
         margin: 0 1rem;
         border-bottom: 0.01rem solid var(--sec-white);
+    }
+    .nav-links a:hover {
+        background-color: var(--input-bg);
+        color: var(--landmark-green);
     }
     .burger-section .nav-btn {
         width: 10rem;

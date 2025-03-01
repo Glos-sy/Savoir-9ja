@@ -23,13 +23,17 @@
 }
 html {
     font-size: 62.5%;
-    font-family: "Hanken Grotesk", serif;
+    font-family: "Hanken Grotesk", sans-serif;
 }
 body {
     width: 100%;
 }
 .flex-box {
     display: flex;
+}
+.hero {
+    flex-direction: column;
+    align-items: center;
 }
 .hotel-title {
     flex-direction: column;

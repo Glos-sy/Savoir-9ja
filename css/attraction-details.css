@@ -5,11 +5,19 @@
 }
 html {
     font-size: 62.5%;
-    font-family: "Hanken Grotesk", serif;
+    font-family: "Hanken Grotesk", sans-serif;
 }
 body {
     position: relative;
 }
+.hero {
+    flex-direction: column;
+    align-items: center;
+}
+header {
+    position: fixed;
+}
+
 .carousel {
     width: 100%;
 }

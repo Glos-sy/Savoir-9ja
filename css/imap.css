@@ -8,7 +8,7 @@
 }
 html {
     font-size: 62.5%;
-    font-family: "Hanken Grotesk", serif;
+    font-family: "Hanken Grotesk", sans-serif;
 }
 body {
     width: 100%;
@@ -53,23 +53,27 @@ h2 {
 .bottom-spot .right-spot {
     flex-direction: column;
 }
-.nav-section {
+.mid-nav-section {
     padding: 2rem 3rem;
     justify-content: flex-start;
 }
-.nav-menu {
+.mid-nav-section .nav-menu {
     width: 80%;
     justify-content: space-around;
 }
-.nav-menu a{
+.mid-nav-section .nav-menu a{
     font-size: 1.5rem;
     text-decoration: none;
     color: var(--base-white);
     border-radius: 2rem;
     padding: 1rem 1.5rem;
 }
-.nav-menu a:active,
-.nav-menu a:hover {
+.mid-nav-section .nav-menu a.mid-active {
+    background-color: var(--base-white);
+    color: var(--landmark-green);
+}
+.mid-nav-section .nav-menu a:active,
+.mid-nav-section .nav-menu a:hover {
     border: 0.1rem solid var(--base-white);
 }
 .main-map {
@@ -128,4 +132,16 @@ h2 {
     box-shadow: 0 0 2px var(--landmark-green);
     min-width: 22.625rem;
     margin-bottom: 0.5rem;
+}
+.up-spot
+.bottom-spot {
+    justify-content: space-between;
+}
+.up-spot {
+    padding: 2rem 0;
+}
+.sub-nav-menu a{
+    padding: 0.5rem 2rem;
+    border-radius: 2rem;
+    text-decoration: none;
 }
