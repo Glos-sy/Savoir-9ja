@@ -5,8 +5,8 @@ const submit = document.querySelectorAll('.package-text span.book');
 const modal = document.querySelector('.modal-loader');
 const modal_close = document.querySelector('.continue');
 
-cat_containers.forEach((container, index)=>container.style.background = `url(../../../img/cat-${index + 1}.png)`);
-slides.forEach((slide, index)=> slide.innerHTML = `<img src="../../../img/slide-${index+1}.png" alt="Auto-sliding carousel image ${index+1}"/>`);
+cat_containers.forEach((container, index)=>container.style.background = `url(./../img/cat-${index + 1}.png)`);
+slides.forEach((slide, index)=> slide.innerHTML = `<img src="./../img/slide-${index+1}.png" alt="Auto-sliding carousel image ${index+1}"/>`);
 
 window.addEventListener(("DOMContentLoaded"), ()=>{
     submit.forEach((book)=>{
