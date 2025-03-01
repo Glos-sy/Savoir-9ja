@@ -1092,8 +1092,14 @@ footer .send {
     header {
         min-height: 50vh;
     }
+    .carousel-wrapper {
+        order: 3;
+    }
     header .nav-section nav {
         display: none;
+    }
+    .header-section {
+        margin-top: 8rem;
     }
     header .nav-section {
         width: 45rem;
