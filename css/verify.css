@@ -219,14 +219,14 @@ body{
         background-position: top right;
     }
     .hanger {
-        height: 10%;
+        height: 50% !important;
     }
     .background .img {
-        margin-top: 5%;
+        margin-top: 8%;
         width: 80%;
     } 
     .background .img img {
-        height: 300px;
+        scale: 90%;
     }
     .form-side {
         width: 100%;
@@ -255,11 +255,8 @@ body{
         height: 15%;
     }
     .background .img {
-        margin-top: 15%;
+        margin-top: 12%;
     } 
-    .background .img img {
-        height: 240px;
-    }
     .form-side {
         width: 100%;
         gap: 2rem;
@@ -290,6 +287,24 @@ body{
     .otp .token input {
         height: 3rem;
         width: 3rem;
+    }
+    
+}
+@media screen and (max-width:400px) {
+    .background {
+        background-size:15%;
+    }
+    .background .img {
+        width: 100%;
+        margin-top: 10%;
+    } 
+    .sign-btn {
+        padding: 0.8rem 4rem;
+    }
+    .otp .token input {
+        height: 2rem;
+        width: 2rem;
+        font-size: 1rem;
     }
     
 }

@@ -26,6 +26,7 @@ header {
     width: 100%;
     background: url(../img/nike-art-gallery.png) no-repeat center;
     background-size: cover;
+    background-position: center;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
@@ -169,4 +170,53 @@ input[type="range"]#rate-1::-webkit-slider-thumb {
 }
 .stars span {
     padding: 0 1rem;
+}
+
+@media screen and (max-width:1300px) {
+    input[type="range"]::-webkit-slider-thumb {
+        height: 2.5rem;
+        width: 3rem;
+        border-top-right-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+    }
+}
+@media screen and (max-width:800px) {
+    input[type="range"]::-webkit-slider-thumb {
+        height: 3rem;
+        width: 3rem;
+        border-top-right-radius: 1rem;
+        border-bottom-right-radius: 2rem;
+    }
+}
+@media screen and (max-width:500px) {
+    input[type="range"]::-webkit-slider-thumb {
+        height: 2.5rem;
+        width: 3rem;
+        border-top-right-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+    }
+    .comment {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+    .total {
+        font-size: 1rem;
+    }
+    .review-title h3 {
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width:300px) {
+    input[type="range"]::-webkit-slider-thumb {
+        height: 100%;
+        width: 20%;
+    }
+    input[type="range"]#rate-5::-webkit-slider-thumb {
+        background: #2D493F;
+        box-shadow: -2rem 0 0 2rem #2D493F;
+    }
+    input[type="range"]#rate-4::-webkit-slider-thumb {
+        background: #10b179;
+        box-shadow: -2rem 0 0 1rem #10b179;
+    }
 }
