@@ -746,7 +746,7 @@ footer .send {
     right: 1.5rem;
 }
 .modal-loader {
-    position: absolute;
+    position: fixed;
     background: rgba(0, 0, 0, 0.5);
     height: 100vh;
     width: 100%;

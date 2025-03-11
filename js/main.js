@@ -23,7 +23,7 @@ window.addEventListener(("DOMContentLoaded"), ()=>{
         setTimeout(() => {
             modal.classList.add("hide");
         }, 1000);
-        window.location = "../index.html";
+        window.location = "https://glos-sy.github.io/Savoir-9ja/";
     });
 
 
