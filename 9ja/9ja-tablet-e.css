@@ -8,6 +8,26 @@
 
 
 /* HEADER STYLING */
+header ul li a {
+    font-size: 1.4rem;
+}
+
+.a-plan-trip {
+    padding: 2.3% 5% 2.3% 3.5%;
+    border-radius: 30px;
+    font-size: 1.59rem;
+    background-color: #193028;
+    color: white;
+    position: relative;
+    right: -3.8%;
+}
+
+#nav-bar .logo p {
+    position: relative;
+    top: 1rem;
+    font-size: 1rem;
+}
+
 header img {
     width: 100%;
     height: 30rem;

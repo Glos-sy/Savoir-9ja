@@ -2,5 +2,39 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: yellow;
+    /* background-color: yellow; */
+}
+
+#main-nav .inactive, #sub-nav .inactive-sub {
+    display: none;
+}
+
+#sub-nav .active-sub {
+    position: relative;
+    left: -12%;
+}
+
+#accommodation-img .img-one-d, #accommodation-img .img-two .img-two-d, #accommodation-img .img-three-d, #accommodation-img .img-four-d,
+#accommodation-img .img-five-d {
+    display: none;
+}
+
+.img-one-a, .img-one-b, .img-one-c {
+    width: 27%;
+}
+
+.img-two-a, .img-two-b, .img-two-c {
+    width: 27%;
+}
+
+.img-three-a, .img-three-b, .img-three-c {
+    width: 27%;
+}
+
+.img-four-a, .img-four-b, .img-four-c {
+    width: 27%;
+}
+
+.img-five-a, .img-five-b, .img-five-c {
+    width: 27%;
 }

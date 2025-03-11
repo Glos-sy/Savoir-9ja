@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk", serif;
+    /* background-color: yellow; */
+}
+
+/* HEADER STYLING */
+#nav-bar {
+    padding: 2.5% 1%;
+    border-radius: 50px;
+    z-index: 3;
+    width: 85%;
+    left: 8%;
+}
+
+header h1 {
+    right: 14.8%;
+}
+
+#nav-bar img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 3rem;
+    margin: 0 2%;
+    border-radius: 20px;
+}
+
+#nav-bar .logo p {
+    position: relative;
+    top: 0.9rem;
+    font-size: 1.12rem;
+}
+
+#nav-bar ul a {
+    width: 20%;
+    text-decoration: none;
+    position: relative;
+    padding: 1.5%;
+    font-size: 1.55rem;
+    color: #2B2B2B;
+}
+
+.a-plan-trip {
+    font-size: 1.65rem;
+    padding: 2.3% 6.6% 2.3% 3.5%;
+    border-radius: 30px;
+    background-color: #193028;
+    color: white;
+    position: relative;
+    right: -3%;
+}

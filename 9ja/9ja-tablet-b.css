@@ -7,6 +7,36 @@
 }
 
 /* HEADER STYLING */
+#nav-bar {
+    width: 80%;
+    left: 10%;
+}
+
+header ul li a {
+    font-size: 1.6rem;
+}
+
+#nav-bar img {
+    width: 4rem;
+    height: 3rem;
+}
+
+.a-plan-trip {
+    padding: 2.1% 6.5% 2.1% 3.8%;
+    border-radius: 30px;
+    font-size: 1.8rem;
+    background-color: #193028;
+    color: white;
+    position: relative;
+    right: -5%;
+}
+
+#nav-bar .logo p {
+    position: relative;
+    top: 0.8rem;
+    font-size: 1.2rem;
+}
+
 header {
     position: relative;
 }
