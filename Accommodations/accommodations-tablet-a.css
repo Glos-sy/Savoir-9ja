@@ -2,10 +2,44 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 
 /* HEADER STYLING */
+#nav-bar {
+    padding: 2% 2% 2% 2%;
+    border-radius: 50px;
+    z-index: 3;
+    width: 80%;
+    left: 10%;
+}
+
+header ul li a {
+    font-size: 1.45rem;
+}
+
+#nav-bar img {
+    width: 4rem;
+    height: 3rem;
+}
+
+.a-plan-trip {
+    padding: 2.1% 6.5% 2.1% 3.8%;
+    border-radius: 30px;
+    font-size: 1.75rem;
+    background-color: #193028;
+    color: white;
+    position: relative;
+    right: -4%;
+}
+
+#nav-bar .logo p {
+    position: relative;
+    top: 0.8rem;
+    font-size: 1.12rem;
+}
+
+
 header img {
     width: 100%;
     height: 28rem;

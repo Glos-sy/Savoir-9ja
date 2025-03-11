@@ -10,6 +10,31 @@ header img {
     height: 37rem;
 }
 
+#nav-bar {
+    padding: 2% 1%;
+    border-radius: 50px;
+}
+
+a {
+    font-size: 1.6rem;
+}
+
+#nav-bar .logo p {
+    position: relative;
+    top: 1.12rem;
+    font-size: 1.3rem;
+}
+
+.a-plan-trip {
+    padding: 2.2% 7% 2.2% 4.5%;
+    border-radius: 30px;
+    font-size: 1.7rem;
+    background-color: #193028;
+    color: white;
+    position: relative;
+    right: -3.5%;
+}
+
 
 /* MAIN STYLING */
 /* OVERVIEW SECTION STYLING */

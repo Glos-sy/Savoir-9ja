@@ -11,6 +11,76 @@ html {
 }
 
 /* HEADER STYLING */
+#nav-bar {
+    padding: 2% 2% 2% 3%;
+    border-radius: 50px;
+    z-index: 3;
+    width: 70%;
+    margin: 5% auto;
+    height: 6rem;
+    background-color: white;
+    color: #2B2B2B;
+    position: absolute;
+    left: 15%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+
+#nav-bar img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 4rem;
+    margin: 0 2%;
+    border-radius: 20px;
+}
+
+#nav-bar .logo {
+    width: 20%;
+    display: flex;
+}
+
+#nav-bar .logo p {
+    position: relative;
+    top: 1.2rem;
+    font-size: 1.4rem;
+}
+
+#nav-bar ul {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav-bar ul li {
+    list-style-type: none;
+}
+
+#nav-bar ul a {
+    width: 20%;
+    text-decoration: none;
+    position: relative;
+    padding: 1.5%;
+}
+
+#nav-bar ul a:hover {
+    color: #2D493f;
+    border-bottom: 2px solid #2D493f;
+}
+
+.a-plan-trip {
+    padding: 1.7% 6% 1.8% 4%;
+    border-radius: 30px;
+    background-color: #193028;
+    color: white;
+    position: relative;
+    right: -7%;
+}
+
+
 header {
     position: relative;
     font-family: "Old Standard TT", serif;

@@ -7,6 +7,37 @@
 
 
 /* HEADER STYLING */
+#nav-bar {
+    padding: 2.5% 1.5%;
+    border-radius: 50px;
+    z-index: 3;
+}
+
+#nav-bar .logo p {
+    position: relative;
+    top: 1.3rem;
+    font-size: 1.2rem;
+}
+
+#nav-bar ul a {
+    width: 20%;
+    text-decoration: none;
+    position: relative;
+    padding: 1.5%;
+    font-size: 1.7rem;
+    color: #2B2B2B;
+}
+
+.a-plan-trip {
+    font-size: 1.65rem;
+    padding: 1.8% 7% 1.8% 4%;
+    border-radius: 30px;
+    background-color: #193028;
+    color: white;
+    position: relative;
+    right: -4.5%;
+}
+
 header h1 {
     text-align: center;
     font-size: 5rem;

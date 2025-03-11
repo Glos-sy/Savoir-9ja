@@ -107,3 +107,10 @@ main {
 .a-c-attractions-img p, .beach-img p, .museum-img p, .adventure-img p, .hiking-img p, .park-img p {
     font-size: 1.12rem;
 }
+
+.a-c-attractions-a:hover, .a-c-attractions-b:hover, .a-c-attractions-c:hover, .beach-img-a:hover, .beach-img-b:hover, .beach-img-c:hover, .museum-img-a:hover,
+.museum-img-b:hover, .museum-img-c:hover, .adventure-img-a:hover, .adventure-img-b:hover, .adventure-img-c:hover, .hiking-img-a:hover, .hiking-img-b:hover,
+.hiking-img-c:hover, .park-img-a:hover, .park-img-b:hover, .park-img-c:hover {
+    height: 29rem;
+    cursor: pointer;
+}
