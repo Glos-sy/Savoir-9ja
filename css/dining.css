@@ -292,10 +292,22 @@ h3 {
         margin: 0 14rem 7rem 0;
         flex: 1 1 none;
     }
+    .cuisines-grid ul {
+        list-style: none;
+        padding-right: 4rem;
+        font-size: 1.5rem;
+        color: var(--grey-text);
+    }
+    .budget-restaurant-title {
+        padding: 0 1rem ;
+    }
 }
 
 @media screen and (max-width:650px) {
     body {
+        overflow-x: hidden;
+    }
+    .hero {
         overflow-x: hidden;
     }
     .top-spots-contents,
@@ -325,11 +337,28 @@ h3 {
     .top-food{
         margin: 0 4rem 7rem 0;
     }
+    .top-foods-title {
+        justify-content: space-between;
+        padding: 1rem 3rem;
+    }
     .budget-restaurant {
         margin: 0 4rem 2rem 0;
         flex: 1 1 none;
     }
+    .cuisines-title {
+        padding: 2rem 3rem 1rem;
+    }
+    .cuisines-grid {
+        padding: 2rem;
+        min-width: 60%;
+    }
 }
+@media screen and (max-width:550px) {
+    .pages {
+        overflow: hidden;
+    }
+}
+
 @media screen and (max-width:500px) {
     * {
         margin: 0;
@@ -340,5 +369,11 @@ h3 {
     }
     h3 {
         font-size: 2rem;
+    }
+}
+@media screen and (max-width: 350px) {
+    .cuisines-grid ul {
+        padding-right: 1rem;
+        font-size: 1.3rem;
     }
 }
