@@ -14,6 +14,85 @@ html {
 
 
 /* HEADER SECTION STYLING */
+#nav-bar {
+  padding: 2.5% 2.5% 2.5% 3%;
+  border-radius: 50px;
+  z-index: 3;
+  width: 70%;
+  margin: 5% auto;
+  height: 6rem;
+  background-color: white;
+  color: #2B2B2B;
+  position: absolute;
+  left: 15%;
+  display: flex;
+  align-items: center;
+  position: fixed;
+}
+
+#nav-bar a {
+  text-decoration: none;
+}
+
+#nav-bar img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5rem;
+  height: 4rem;
+  margin: 0 2%;
+  border-radius: 20px;
+}
+
+#nav-bar li a {
+  font-size: 1.8rem;
+}
+
+#nav-bar .logo {
+  width: 20%;
+  display: flex;
+}
+
+#nav-bar .logo p {
+  position: relative;
+  top: 1.2rem;
+  font-size: 1.4rem;
+}
+
+#nav-bar ul {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#nav-bar ul li {
+  list-style-type: none;
+}
+
+#nav-bar ul a {
+  width: 20%;
+  text-decoration: none;
+  position: relative;
+  padding: 1.5%;
+  color: #2B2B2B;
+}
+
+#nav-bar ul a:hover {
+  color: #2D493f;
+  border-bottom: 3px solid #2D493f;
+}
+
+.a-plan-trip {
+  font-size: 2rem;
+  padding: 1.7% 6% 1.8% 4%;
+  border-radius: 30px;
+  background-color: #193028;
+  color: white;
+  position: relative;
+  right: -6.5%;
+}
+
 header img {
     width: 100%;
 }

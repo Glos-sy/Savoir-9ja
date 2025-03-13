@@ -127,6 +127,11 @@ nav li {
     border-radius: 30px;
 }
 
+.active, #active-li {
+    background-color: #193028;
+    color: white;
+}
+
 nav li:hover {
     background-color: #193028;
 }

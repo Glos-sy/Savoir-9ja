@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #2B2B2B;
+    font-family: "Hanken Grotesk", serif;
+    /* background-color: yellow; */
+}
+
+/* HEADER SECTION STYLING */
+header img {
+    width: 100%;
+    height: 17rem;
+}
+
+#main-nav li {
+    list-style-type: none;
+    padding: 2% 4%;
+    border-radius: 30px;
+}
+
+
+/* ACCOMODATIONS SECTION STYLING */
+#accommodation-img img {
+    width: 100%;
+    height: 20rem;
+    margin: 5% auto 0;
+}

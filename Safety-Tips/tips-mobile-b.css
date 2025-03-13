@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk", serif;
+    /* background-color: yellow; */
+}
+
+
+/* TIPS SECTION STYLING */
+#tips {
+    max-height: 110rem;
+}
+
+#tips .tips-a .brown::before {
+    content: "\2B22";
+    color: #8a623f;
+    font-size: 40rem;
+}
+
+#tips .tips-a .darkgreen::before {
+    content: "\2B22";
+    color: #193028;
+    font-size: 40rem;
+}
+
+#tips .tips-a .lightgreen::before {
+    content: "\2B22";
+    color: #326d59;
+    font-size: 40rem;
+}

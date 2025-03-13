@@ -164,6 +164,14 @@ nav ul {
     color: white;
 }
 
+#main-nav .active-main, #main-nav .active-main a {
+    background-color: #193028;
+    color: white;
+}
+
+
+
+
 #main-nav a {
     text-decoration: none;
     font-size: 1.8rem;
@@ -262,7 +270,7 @@ nav ul {
 }
 
 .img-sub-txt p {
-    margin: 1% 0 12%;
+    margin: 1% 0 11%;
 }
 
 .img-two-a, .img-two-b, .img-two-c, .img-two-d {

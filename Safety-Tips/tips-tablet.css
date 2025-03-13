@@ -7,7 +7,34 @@
 }
 
 
+
 /* HEADER STYLING */
+#nav-bar {
+    padding: 2.5% 2.5% 2.5% 3%;
+    border-radius: 50px;
+    z-index: 3;
+    width: 78%;
+    margin: -8.5% auto;
+    height: 6rem;
+    background-color: white;
+    color: #2B2B2B;
+    position: absolute;
+    left: 12%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+
+.a-plan-trip {
+    font-size: 2rem;
+    padding: 1.7% 6% 1.8% 4%;
+    border-radius: 30px;
+    background-color: #193028;
+    color: white;
+    position: relative;
+    right: -4%;
+}
+
 header {
     padding: 15% 0 0;
 }
