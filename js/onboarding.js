@@ -46,7 +46,6 @@ otps.forEach((input, index)=>{
         }
     });
 });
-console.log(submit);
 submit.addEventListener("click", ()=> {
     setTimeout(() => {
         modal.classList.remove("hide");
@@ -57,7 +56,7 @@ modal_close.addEventListener('focus', ()=> {
     setTimeout(() => {
         modal.classList.add("hide");
     }, 1000);
-    window.location = "../index.html";
+    window.location = "../pages/preferences.html";
 });
 
 

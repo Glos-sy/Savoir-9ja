@@ -26,13 +26,13 @@
           </div>
           <nav class="nav-links flex-box">
             <a href="../index.html">Home</a>
-            <a href="">Attractions</a>
+            <a href="../Attractions/attractions.html">Attractions</a>
             <a href="./history.html">9JA</a>
             <a href="./reviews.html">Reviews</a>
-            <a href="">More</a>
+            <a href="create_account.html">More</a>
           </nav>
           <div class="nav-btn flex-box">
-            <a href="#" style="font-weight: bold; display: inline-block"
+            <a href="create_account.html" style="font-weight: bold; display: inline-block"
               >Explore Now <i>↗</i></a
             >
           </div>
@@ -48,31 +48,31 @@
       </div>
       <div class="burger-section hide flex-box">
         <div class="nav-links flex-box">
-          <a href="">Home</a>
-          <a href="">Attractions</a>
-          <a href="">9JA</a>
-          <a href="">Reviews</a>
-          <a href="" class="burger-active">More</a>
+          <a href="../index.html">Home</a>
+          <a href="../Attractions/attractions.html">Attractions</a>
+          <a href="./history.html">9JA</a>
+          <a href="reviews.html">Reviews</a>
+          <a href="create_account.html" class="burger-active">More</a>
         </div>
         <div class="nav-btn flex-box">
-          <a href="#" style="font-weight: bold; display: inline-block"
+          <a href="create_account.html" style="font-weight: bold; display: inline-block"
             >Explore Now <i>↗</i></a
           >
         </div>
       </div>
 
       <div class="title flex-box">
-        <h2>Interactive Map</h2>
+        <h2><span class="white">In</span><span class="white2">te</span>ractive Map</h2>
         <p>Navigate through Nigeria with our user-friendly interactive map.</p>
       </div>
     </div>
     <div class="mid-nav-section flex-box">
       <div class="nav-menu flex-box">
-        <a href="">Plan Trip</a>
-        <a href="">Food And Dining</a>
-        <a href="">Accomodations</a>
-        <a href="" class="mid-active">Interactive Map</a>
-        <a href="">Wishlist</a>
+        <a href="../My-Trips/my-trips.html">Plan Trip</a>
+        <a href="dining.html">Food And Dining</a>
+        <a href="../Accommodations/accommodation-popular.html">Accomodations</a>
+        <a href="imap.html" class="mid-active">Interactive Map</a>
+        <a href="dining.html">Wishlist</a>
       </div>
     </div>
 
@@ -102,14 +102,6 @@
               />
             </div>
 
-            <div class="map-nav flex-box">
-              <div class="sub-nav-menu flex-box">
-                <a href="">Recently Viewed</a>
-                <a href="">Restaurant</a>
-                <a href="">Coffee</a>
-                <a href="">Groceries</a>
-              </div>
-            </div>
           </div>
           <div class="location-icons flex-box">
             <span><i class="fa-solid fa-car"></i></span>
@@ -121,16 +113,17 @@
         </div>
 
         <div class="map-nav flex-box">
-          <div class="nav-menu flex-box">
-            <a href="">Recently Viewed</a>
-            <a href="">Restaurant</a>
-            <a href="">Coffee</a>
-            <a href="">Groceries</a>
+          <div class="sub-nav-menu flex-box">
+            <a href="imap.html" class="active">Recently Viewed</a>
+            <a href="dining.html">Restaurant</a>
+            <a href="dining.html">Coffee</a>
+            <a href="dining.html">Groceries</a>
+            <a href="hotel_details.html">Hotels</a>
           </div>
         </div>
 
         <div class="spot-cards flex-box">
-          <div class="up-spot flex-box">
+          <div class="up-spot card flex-box">
             <img src="../img/brisk.png" alt="Brisk Cafe Lagos" />
             <div class="spot-details flex-box">
               <span class="spot-title">BRISK</span>
@@ -146,7 +139,7 @@
           </div>
 
           <div class="bottom-spot flex-box">
-            <div class="left-spot flex-box">
+            <div class="left-spot card bottom-card flex-box">
               <img src="../img/brisa.png" alt="Brisa Restaurant Uyo" />
               <div class="spot-details flex-box">
                 <span class="spot-title">BRISA</span>
@@ -161,7 +154,7 @@
               </div>
             </div>
 
-            <div class="right-spot flex-box">
+            <div class="right-spot card bottom-card flex-box">
               <img
                 src="../img/wingside.png"
                 alt="Wingside Restaurant Port Harcourt"
@@ -182,9 +175,23 @@
         </div>
       </div>
 
-      <div class="map-icons flex-box"></div>
+      <div class="map-icons flex-box">
+        <div class="search-field">
+          <input type="search" name="search" id="">
+          <i class="fa-solid fa-magnifying-glass" style="color: #b9b9b9;"></i>
+        </div>
+        <div class="icons flex-box">
+          <div class="near icon flex-box">
+            <i class="fa-solid fa-location-arrow" style="color: #e0e0e0;"></i>
+          </div>
+          <div class="direction icon flex-box">
+            <img src="https://img.icons8.com/?size=100&id=X9vsbZkgveAQ&format=png&color=ffffff" alt="">
+          </div>
+        </div>
+      </div>
     </div>
 
     <script src="../js/nav.js"></script>
+    <script src="../js/map.js"></script>
   </body>
 </html>

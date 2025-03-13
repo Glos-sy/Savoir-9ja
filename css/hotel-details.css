@@ -70,7 +70,6 @@ body {
 .hotel-carousel .slides .slide {
     width: 8rem;
     height: 7rem;
-    background-color: grey;
     border-radius: 1rem;
     background-size: cover !important;
 }
@@ -82,7 +81,7 @@ body {
 
 }
 .rating {
-    width: 8%;
+    min-width: 8%;
     padding: 0.7rem 0.5rem;
     color: var(--input-bg);
     border-radius: 0.5rem;
@@ -161,7 +160,7 @@ input[type="range"]::-webkit-slider-thumb{
 }
 .booking .room-details .about-room {
     padding: 1rem;
-    width: 20%;
+    min-width: 20%;
     align-self: center;
 }
 
@@ -190,4 +189,60 @@ input[type="range"]::-webkit-slider-thumb{
     border: none;
     background-color: var(--ng-green);
     border-radius: 2rem;
+}
+@media screen and (max-width:1024px){
+    .hotel-carousel .slides .slide {
+        width: 5rem !important;
+        height: 4rem !important;
+    }
+    .booking .rooms-info {
+        width: 90%;
+    }    
+}
+@media screen and (max-width:800px) {
+    h5 {
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:700px) {
+    .room-details {
+        flex-wrap: wrap;
+    }
+    .booking .room-details .room-img {
+        height: 15rem;
+        width: 25rem;
+        align-self: center;
+    }
+    h5 {
+        font-size: 1.2rem;
+    }
+    .booking .room-details .about-room {
+        padding-right: 2rem;
+    }
+    .book-room {
+        padding-left: 2rem;
+    }
+}
+
+@media screen and (max-width:660px) {
+    .booking .room-details .room-img {
+        height: 15rem;
+        width: 25rem;
+        align-self: center;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    h4 {
+        font-size: 1.5rem;
+    }
+    .hotel-review {
+        flex-direction: column;
+    }
+    .hotel-carousel {
+        width: 100%;
+    }
+    .booking .room-details .about-room {
+        border-right: none;
+    }
 }

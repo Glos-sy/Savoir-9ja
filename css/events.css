@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --primary: #193028;
+    --sub-text: #2B2B2B;
+    --base-white: #FFFFFF;
+    --sec-white: #FBFBFB;
+    --base-brown: #8A6240;
+    --package-green: #4C6444;
+    --package-cream: #F7F0E6;
+    --ng-green: #26473C;
+    --review-green: #143109;
+    --grey-text: #838383;
+    --black: #000000;
+    --light-green: #B5BFA1;
+    --foundation-orange: #EFE2DA;
+    --opaque-green: #f4fffb;
+    --landmark-green: #2D493f;
+    --rating-gold: #EBBF11;
+    --input-bg: #EAEAEA;
+    --food-grey: #D7CBC4;
+    --historic-brown: #8A6240;
+}
+html {
+    font-size: 62.5%;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+body {
+    width: 100%;
+}
+.flex-box {
+    display: flex;
+}
+.hero {
+    min-height: 40vh;
+    width: 100%;
+    background: var(--base-white) url('../img/nigeriaHero.png') no-repeat center center;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+header {
+    height: 10vh;
+}
+.title {
+    text-align: center;
+    align-self: center;
+}
+h2 {
+    font-family: "Old Standard TT", serif;
+    font-size: 4rem;
+    color: var(--base-white);
+}
+.mid-nav-section {
+    padding: 2rem 3rem;
+    justify-content: flex-start;
+}
+.mid-nav-section .nav-menu{
+    width: 80%;
+    justify-content: space-around;
+}
+.sub-mid-nav-section {
+    padding: 2rem 8rem;
+}
+.sub-mid-nav-section .nav-menu {
+    justify-content: flex-start;
+}
+.sub-mid-nav-section .nav-menu a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--sub-text);
+    padding: 1rem 1.5rem;
+    margin-right: 1rem;
+}
+.sub-mid-nav-section a.sub-active {
+    text-decoration: 0.2rem underline #52A88A;
+}
+.mid-nav-section .nav-menu a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--sub-text);
+    border-radius: 2rem;
+    padding: 1rem 1.5rem;
+}
+.mid-nav-section .nav-menu a.mid-active {
+    background-color: var(--landmark-green);
+    color: var(--base-white);
+}
+.mid-nav-section .nav-menu a:active,
+.mid-nav-section .nav-menu a:hover {
+    border: 0.1rem solid var(--landmark-green);
+}
+.events,
+ol {
+    flex-direction: column;
+}
+.events {
+    padding: 3rem 3rem 1rem;
+    background-color: var(--input-bg);
+    margin: auto;
+    width: 50%;
+    align-items: center;
+}
+.events-title {
+    padding-bottom: 2rem;
+}
+.event-item {
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    padding: 1rem 1.5rem;
+    margin-bottom: 1rem;
+    width: 90%;
+    background-color: var(--landmark-green);
+}
+.bud-border {
+    border-radius: 0 2rem 0 2rem;
+}
+h5 {
+    font-size: 1.25rem;
+    color: var(--rating-gold);
+}
+p {
+    width: 90%;
+    align-self: center;
+    font-size: 1.25rem;
+}
+h3 {
+    font-size: 2rem;
+}
+
+li {
+    color: var(--base-white);
+    list-style-position: inside;
+    font-size: 1.125rem;
+    text-align: justify;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+@media screen and (max-width:1024px){
+    h3 {
+        font-size: 1.8rem;
+    }
+    .facts li {
+        line-height: 2.2rem;
+    }
+}
+@media screen and (max-width:900px) {
+    h3 {
+        font-size: 1.5rem;
+        padding: 1rem !important;
+    }
+}
+@media screen and (max-width:820px) {
+    .mid-nav-section .nav-menu a{
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width:700px){
+    .mid-nav-section .nav-menu {
+        width: 100%;
+    }
+    .mid-nav-section .nav-menu a{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:600px){
+    .mid-nav-section .nav-menu {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+}
+@media screen and (max-width:500px){
+    .main-history {
+        flex-direction: column;
+    }
+    .frame{
+        display: none;
+    }
+
+    h3 {
+        margin: 1rem 0;
+        align-self: flex-start !important;
+    }
+}
