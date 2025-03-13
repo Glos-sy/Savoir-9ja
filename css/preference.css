@@ -27,7 +27,7 @@ html {
 body {
     position: relative;
     width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .flex-box {
     display: flex;
@@ -214,6 +214,13 @@ h2 {
     .next {
         font-size: 1.1rem;
     }
+    .list-item {
+        font-size: 1.5rem;
+    }
+    .opt-item .preference-item .pref-text {
+        width: 60%;
+        font-size: 1.2rem;
+    }
 }
 @media screen and (max-width:700px){
     .preference-item .btn {
@@ -223,6 +230,9 @@ h2 {
 @media screen and (max-width:500px){
     .preference-list {
         width: 90%;
+    }
+    h2 {
+        font-size: 1.2rem;
     }
     .preference-item .btn {
         padding: 1rem 2rem;
@@ -246,5 +256,20 @@ h2 {
     .item-7 .dot {
         width: 50%;
     }
-    
+    .list-item {
+        font-size: 1.2rem;
+    }
+    .opt-item {
+        padding: 1rem 2rem;
+    }
+    .opt-item .preference-item .pref-text {
+        width: 70%;
+        font-size: 1.1rem;
+    }
+}
+@media screen and (max-width:350px) {
+    .opt-item .preference-item .pref-text {
+        width: 80%;
+        font-size: 1rem;
+    }
 }
