@@ -33,7 +33,7 @@ header img {
 
 /* MAPS SECTION STYLING */
 #maps p {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     width: 70%;
 }
 
@@ -45,13 +45,13 @@ header img {
 
 #maps .second-map-img p {
     position: absolute;
-    top: 25%;
+    top: 23%;
     right: 15%;
 }
 
 #three p {
     position: absolute;
-    top: 20rem;
+    top: 18rem;
     left: 7rem;
 }
 
