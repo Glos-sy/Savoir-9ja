@@ -57,3 +57,14 @@
     right: -3.8%;
     font-size: 1.1rem;
 }
+
+
+/* TEXT OVERLAY */
+.txt-lagos h1 {
+    text-align: center;
+    font-size: 4rem;
+    color: white;
+    position: absolute;
+    top: 25%;
+    right: 28%;
+}

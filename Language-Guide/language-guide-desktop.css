@@ -7,6 +7,54 @@
 }
 
 /* HEADER STYLING */
+/* HEADER STYLING */
+.fa-bars {
+    display: block;
+}
+
+.mobile-nav {
+    height: 5rem;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    padding: 2% 1%;
+    background-color: #2d483f;
+    color: white;
+    display: flex;
+    z-index: 3;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+    position: fixed;
+}
+
+.mobile-logo {
+    display: flex;
+    color: white;
+}
+
+.mobile-logo img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.2rem;
+    height: 3.2rem;
+    margin: 0 2%;
+}
+
+.mobile-logo p {
+    color: white;
+    width: 60%;
+    position: relative;
+    top: 1.1rem;
+    font-size: 0.8rem;
+}
+
+.fa-xmark {
+    display: none;
+}
+
+
 #nav-bar {
     padding: 2% 2%;
     border-radius: 50px;
@@ -82,6 +130,7 @@
     font-size: 1.2rem;
 }
 
+
 header img {
     width: 100%;
     height: 30rem;
@@ -107,11 +156,11 @@ main {
 /* TEXT OVERLAY */
 .txt-lagos h1 {
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 5rem;
     color: white;
     position: absolute;
-    top: 37%;
-    right: 38%;
+    top: 36%;
+    right: 29%;
 }
 
 
