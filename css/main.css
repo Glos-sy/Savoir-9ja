@@ -64,8 +64,9 @@ a {
 header {
     position: relative;
     flex-direction: column;
-    min-height: 85vh;
+    min-height: 70vh;
     padding-top: 2rem;
+    background: var(--opaque-green);
 }
 .hide {
     display: none !important;
@@ -120,9 +121,7 @@ a.nav-active {
 .nav-section .nav-btn a {
     color: var(--primary);
 }
-header {
-    background: var(--opaque-green);
-}
+
 .header-section {
     background: url('../img/nigerian-flag-grunge-brush-background-vector-29628121-removebg-preview.png') center no-repeat;
     width: 28.4375rem;
@@ -132,6 +131,7 @@ header {
     background-size: cover;
     background-position: center;
     position: relative;
+    margin-top: 4rem;
 }
 p.header-text {
     margin: 3rem 0;
@@ -267,11 +267,12 @@ p.header-text {
     border-radius: 2rem; 
 }
 .feature-section {
-    padding: 2rem 0;
+    padding: 6rem 0;
 }
 .features {
     width: 90%;
     align-self: center;
+    justify-content: center;
 }
 .feature-title{
     padding-bottom: 2rem;
@@ -335,7 +336,7 @@ p.header-text {
 }
 .feature-images {
     padding-left: 4rem;  
-    width: 50%;  
+    /* width: 50%;   */
 }
 .feature-images .feat-img {
     height: 15.375rem;
