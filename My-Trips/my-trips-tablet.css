@@ -6,6 +6,33 @@
 }
 
 
+/* HEADER SECTION STYLING */
+#nav-bar {
+  width: 90%;
+  padding: 2% 2% 2% 1%;
+  left: 13%;
+}
+
+a {
+  font-size: 1.6rem;
+}
+
+#nav-bar .logo p {
+  position: relative;
+  top: 1.12rem;
+  font-size: 1.3rem;
+}
+
+.a-plan-trip {
+  padding: 2% 7% 2% 4.5%;
+  border-radius: 30px;
+  font-size: 1.79rem;
+  background-color: #193028;
+  color: white;
+  position: relative;
+  right: -4.2%;
+}
+
 /* MAIN SECTION STYLING */
 .nav-one {
     width: 85%;

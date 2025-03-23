@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: yellow; */
+}
+
+/* MAIN SECTION STYLING */
+#my-trips-main .new-trip {
+    margin: 8% 0 0;
+}
+
+.header-a h1, .header-b h1, .header-c h1 {
+    font-size: 1.3rem;
+}
+
+.trip-option p {
+    font-size: 1rem;
+}
+
+.trip-option .alert {
+    font-size: 1rem;
+}
+
+.nav-one li .active-li {
+    padding: 1rem 2.5rem;
+    color: white;
+    background-color: #193028;
+    border-radius: 20rem;
+    margin: 6% 0;
+}

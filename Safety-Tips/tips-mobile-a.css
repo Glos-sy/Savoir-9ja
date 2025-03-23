@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk", serif;
+    /* background-color: yellow; */
+}
+
+/* MAIN STYLING */
+nav li {
+    list-style-type: none;
+    padding: 2.5% 4%;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.75rem;
+}
+
+/* TIPS SECTION STYLING */
+#tips {
+    max-height: 130rem;
+}
+
+#tips h3 {
+    font-size: 2.2rem;
+    margin: 4%;
+}
+
+#tips p, #tips li {
+    font-size: 1.5rem;
+}
+
+.poly-a {
+    margin: 9% auto 22%;
+    position: relative;
+}
+
+.poly-b {
+    margin: 3% auto 28%;
+    position: relative;
+}
+
+#tips .poly-e::before {
+    display: none;
+}
+
+#tips .poly-f::before, #tips .poly-d::before {
+    display: none;
+}
+
+.poly-f, .poly-f-txt {
+    display: none;
+}
+
+.poly-e, .poly-e-txt, .poly-d {
+    display: none;
+}
+
+
+#tips .tips-a .brown::before {
+    content: "\2B22";
+    color: #8a623f;
+    font-size: 45rem;
+}
+
+#tips .tips-a .darkgreen::before {
+    content: "\2B22";
+    color: #193028;
+    font-size: 45rem;
+}
+
+#tips .tips-a .lightgreen::before {
+    content: "\2B22";
+    color: #326d59;
+    font-size: 45rem;
+}
+
+
+/* SECURITY SECTION STYLING */
+#security h3 {
+    font-size: 1.8rem;
+    margin: 2% 0;
+}
+
+#security p {
+    font-size: 1.2rem;
+}

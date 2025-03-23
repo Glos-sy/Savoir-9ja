@@ -21,34 +21,14 @@ header .overlay {
     top: 0;
 }
 
-/* MAIN STYLING */
-main {
-    width: 93%;
-    margin: 1rem auto;
-}
 
-
+/* LAGOS SECTION */
 /* TEXT OVERLAY */
 .txt-lagos h1 {
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 2.2rem;
     color: white;
     position: absolute;
-    top: 12.8%;
-    right: 23%;
-}
-
-
-/* LAGOS SECTION */
-#lagos p {
-    font-size: 1rem;
-}
-#lagos input {
-    width: 95%;
-    margin: -1rem auto 1rem;
-}
-
-#lagos h1 {
-    font-size: 2rem;
-    margin: 0 0 0.3rem;
+    top: 11%;
+    right: 20%;
 }

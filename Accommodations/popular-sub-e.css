@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #2B2B2B;
+    font-family: "Hanken Grotesk", serif;
+    /* background-color: yellow; */
+}
+
+#main-nav .active-main {
+    position: relative;
+    right: 43%;
+}

@@ -10,8 +10,12 @@
       href="../img/game-icons_nigeria.png"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="../nav.css" />
     <link rel="stylesheet" href="../Attractions/attractions-dektop.css" />
+    <link
+      rel="stylesheet"
+      href="../Attractions/hero-title.css"
+      media="(max-width: 1115px)"
+    />
     <link
       rel="stylesheet"
       href="../Attractions/attractions-tablet.css"
@@ -27,7 +31,6 @@
       href="../Attractions/nav-responsiveness.css"
       media="(max-width: 850px)"
     />
-    <!-- 730 -->
     <link
       rel="stylesheet"
       href="../Attractions/attractions-tablet-b.css"
@@ -43,7 +46,11 @@
       href="../Attractions/attractions-tablet-c.css"
       media="(max-width: 673px)"
     />
-    <!-- 640 -->
+    <link
+      rel="stylesheet"
+      href="../Attractions/nav-responsiveness-b.css"
+      media="(max-width: 690px)"
+    />
     <link
       rel="stylesheet"
       href="../Attractions/attractions-tablet-d.css"
@@ -64,7 +71,12 @@
       href="../Attractions/attractions-mobile-b.css"
       media="(max-width: 388px)"
     />
-    <!-- 388 -->
+    <link
+      rel="stylesheet"
+      href="../Attractions/attractions-mobile-c.css"
+      media="(max-width: 350px)"
+    />
+    <!-- 350 -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -87,6 +99,14 @@
   </head>
   <body>
     <header>
+      <div class="mobile-nav">
+        <div class="mobile-logo">
+          <img src="../img/game-icons_nigeria.png" alt="" />
+          <p>Savoir 9ja</p>
+        </div>
+        <i id="bars" class="fa-solid fa-bars"></i>
+        <i class="fa-solid fa-xmark"></i>
+      </div>
       <div id="nav-bar">
         <div class="logo">
           <img src="../Media/logo.png" alt="" />
@@ -117,7 +137,6 @@
         <div class="explore">
           <h2>Explore Attractions</h2>
           <div class="explore-search">
-            <i class="fa-solid fa-magnifying-glass"></i>
             <input
               type="search"
               name=""
@@ -504,7 +523,6 @@
       </section>
     </main>
 
-    <footer></footer>
-    <script src="../js/nav.js"></script>
+    <script src="../9ja/script.js"></script>
   </body>
 </html>

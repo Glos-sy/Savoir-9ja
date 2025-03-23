@@ -6,8 +6,102 @@
     /* background-color: yellow; */
 }
 
+/* HEADER STYLING */
+.mobile-nav {
+    display: block;
+}
+
+.fa-bars {
+    display: block;
+    position: absolute;
+    top: 1.8rem;
+    right: 2rem;
+    color: white;
+    font-size: 2.8rem;
+    z-index: 3;
+}
+
+.fa-bars:hover {
+    cursor: pointer;
+}
+
+/* #nav-bar {
+    display: none;
+} */
+
+#nav-bar {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+#nav-bar ul {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul li a {
+    font-size: 1.8rem;
+    color: white;
+}
+
+
+header ul li {
+    margin: 2% auto;
+    color: white;
+}
+
+#nav-bar {
+    padding: 2% 2% 2% 3%;
+    border-radius: 0;
+    z-index: 3;
+    width: 100%;
+    margin: 4% auto;
+    height: 26rem;
+    background-color: #2d483f;
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 2rem;
+    display: none;
+}
+
+#nav-bar ul a {
+    color: white;
+}
+
+#nav-bar.show {
+    display: flex;
+    width: 100%;
+}
+
+
+.a-plan-trip {
+    padding: 1.7% 6% 1.8% 4%;
+    border-radius: 30px;
+    border: 2px solid white;
+    background-color: #193028;
+    color: white;
+    position: relative;
+    right: 0;
+    margin-top: 0;
+}
+
+.a-plan-trip:hover {
+    border: none;
+}
+
+#nav-bar .logo {
+    display: none;
+}
+
 
 /* MAIN SECTION STYLING */
+
 /* NAV STYLING */
 nav {
     width: 100%;

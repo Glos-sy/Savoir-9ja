@@ -9,7 +9,6 @@
       href="../img/game-icons_nigeria.png"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="../css/nav.css" />
     <link rel="stylesheet" href="../My-Trips/my-trips-desktop.css" />
     <link
       rel="stylesheet"
@@ -28,8 +27,18 @@
     />
     <link
       rel="stylesheet"
+      href="../My-Trips/nav-responsiveness.css"
+      media="(max-width: 810px)"
+    />
+    <link
+      rel="stylesheet"
       href="../My-Trips/my-trips-tablet-c.css"
       media="(max-width: 755px)"
+    />
+    <link
+      rel="stylesheet"
+      href="../My-Trips/nav-responsiveness-a.css"
+      media="(max-width: 710px)"
     />
     <link
       rel="stylesheet"
@@ -56,7 +65,12 @@
       href="../My-Trips/my-trips-mobile-c.css"
       media="(max-width: 341px)"
     />
-    <!--  341 -->
+    <link
+      rel="stylesheet"
+      href="../My-Trips/my-trips-mobile-d.css"
+      media="(max-width: 330px)"
+    />
+    <!--  330-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -73,6 +87,14 @@
   </head>
   <body>
     <header>
+      <div class="mobile-nav">
+        <div class="mobile-logo">
+          <img src="../img/game-icons_nigeria.png" alt="" />
+          <p>Savoir 9ja</p>
+        </div>
+        <i id="bars" class="fa-solid fa-bars"></i>
+        <i class="fa-solid fa-xmark"></i>
+      </div>
       <div id="nav-bar">
         <div class="logo">
           <img src="../Media/logo.png" alt="" />
@@ -221,6 +243,6 @@
         </div>
       </section>
     </main>
-    <script src="../js/nav.js"></script>
+    <script src="../9ja/script.js"></script>
   </body>
 </html>

@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #2B2B2B;
+    font-family: "Hanken Grotesk", serif;
+    /* background-color: yellow; */
+}
+
+/* HEADER SECTION STYLING */
+header img {
+    width: 100%;
+    height: 20rem;
+}
+
+
+/* OVERVIEW SECTION */
+#overview h2 {
+    margin: 3% 0;
+    font-size: 1.7rem;
+}
+
+#overview div p {
+    font-size: 1.14rem;
+}
+
+#main-nav a {
+    text-decoration: none;
+    font-size: 1.7rem;
+    width: 100%;
+    height: 100%;
+}
+
+#main-nav li {
+    list-style-type: none;
+    padding: 2% 3%;
+    border-radius: 30px;
+}
+
+#accommodation-img img {
+    width: 100%;
+    height: 25rem;
+    margin: 5% auto 0;
+}

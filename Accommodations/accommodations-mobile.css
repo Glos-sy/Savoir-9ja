@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #2B2B2B;
+    font-family: "Hanken Grotesk", serif;
+    /* background-color: yellow; */
+}
+
+/* HEADER SECTION STYLING */
+header img {
+    width: 100%;
+    height: 25rem;
+}
+
+
+/* OVERVIEW SECTION STYLING */
+#overview .guest {
+    display: none
+}
+
+.check-out {
+    border: none;
+}
+
+
+/* ACCOMMODATION IMG SECTION STYLING */
+#main-nav .active-main {
+    position: relative;
+    right: -2%;
+}
+
+
+#accommodation-img .img-one, #accommodation-img .img-two {
+    flex-direction: column;
+}
+
+#accommodation-img .img-three, #accommodation-img .img-four, #accommodation-img .img-five {
+    display: none;
+}
+
+.img-one-a, .img-one-b, .img-one-c, .img-one-d {
+    width: 90%;
+}
+
+.img-two-a, .img-two-b, .img-two-c, .img-two-d {
+    width: 90%;
+}
+
+#accommodation-img img {
+    width: 100%;
+    height: 35rem;
+    margin: 5% auto 0;
+}
+
+#accommodation-img h3 {
+    margin: 5% 0 3%;
+    font-size: 2rem;
+}
+
+#accommodation-img p {
+    font-size: 1.3rem;
+}
+
+.img-sub-txt p {
+    margin: 1% 0 8%;
+}

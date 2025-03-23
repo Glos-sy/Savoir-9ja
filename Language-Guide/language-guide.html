@@ -20,7 +20,17 @@
     />
     <link
       rel="stylesheet"
+      href="../Language-Guide/nav-responsiveness.css"
+      media="(max-width: 820px)"
+    />
+    <link
+      rel="stylesheet"
       href="../Language-Guide/language-guide-tablet-a.css"
+      media="(max-width: 680px)"
+    />
+    <link
+      rel="stylesheet"
+      href="../Language-Guide/language-guide-tablet-b.css"
       media="(max-width: 600px)"
     />
     <link
@@ -36,18 +46,38 @@
     <link
       rel="stylesheet"
       href="../Language-Guide/language-guide-mobile-b.css"
+      media="(max-width: 350px)"
+    />
+    <link
+      rel="stylesheet"
+      href="../Language-Guide/language-guide-mobile-c.css"
       media="(max-width: 320px)"
     />
-    <!-- 320 -->
+    <!-- 350 -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <header>
+      <div class="mobile-nav">
+        <div class="mobile-logo">
+          <img src="../img/game-icons_nigeria.png" alt="" />
+          <p>Savoir 9ja</p>
+        </div>
+        <i id="bars" class="fa-solid fa-bars"></i>
+        <i class="fa-solid fa-xmark"></i>
+      </div>
       <div id="nav-bar">
         <div class="logo">
           <img src="../Media/logo.png" alt="" />
@@ -172,6 +202,6 @@
         </table>
       </section>
     </main>
-    <script src="../js/nav.js"></script>
+    <script src="../9ja/script.js"></script>
   </body>
 </html>

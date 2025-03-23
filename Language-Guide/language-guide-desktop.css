@@ -7,6 +7,130 @@
 }
 
 /* HEADER STYLING */
+/* HEADER STYLING */
+.fa-bars {
+    display: block;
+}
+
+.mobile-nav {
+    height: 5rem;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    padding: 2% 1%;
+    background-color: #2d483f;
+    color: white;
+    display: flex;
+    z-index: 3;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+    position: fixed;
+}
+
+.mobile-logo {
+    display: flex;
+    color: white;
+}
+
+.mobile-logo img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.2rem;
+    height: 3.2rem;
+    margin: 0 2%;
+}
+
+.mobile-logo p {
+    color: white;
+    width: 60%;
+    position: relative;
+    top: 1.1rem;
+    font-size: 0.8rem;
+}
+
+.fa-xmark {
+    display: none;
+}
+
+
+#nav-bar {
+    padding: 2% 2%;
+    border-radius: 50px;
+    z-index: 3;
+    width: 70%;
+    margin: 5% auto;
+    height: 4.6rem;
+    background-color: white;
+    color: #2B2B2B;
+    position: absolute;
+    left: 14%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+
+#nav-bar a {
+    text-decoration: none;
+}
+
+#nav-bar img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 3rem;
+    margin: 0 2%;
+    border-radius: 20px;
+}
+
+#nav-bar .logo {
+    width: 20%;
+    display: flex;
+}
+
+#nav-bar .logo p {
+    position: relative;
+    top: 1rem;
+    font-size: 0.9rem;
+}
+
+#nav-bar ul {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav-bar ul li {
+    list-style-type: none;
+}
+
+#nav-bar ul a {
+    width: 20%;
+    text-decoration: none;
+    position: relative;
+    padding: 1.5%;
+    font-size: 1.2rem;
+}
+
+#nav-bar ul a:hover {
+    color: #2D493f;
+    border-bottom: 2px solid #2D493f;
+}
+
+.a-plan-trip {
+    padding: 1.7% 6% 1.8% 4%;
+    border-radius: 30px;
+    background-color: #193028;
+    color: white;
+    position: relative;
+    right: -7%;
+    font-size: 1.2rem;
+}
+
+
 header img {
     width: 100%;
     height: 30rem;
@@ -32,11 +156,11 @@ main {
 /* TEXT OVERLAY */
 .txt-lagos h1 {
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 5rem;
     color: white;
     position: absolute;
-    top: 37%;
-    right: 38%;
+    top: 36%;
+    right: 29%;
 }
 
 

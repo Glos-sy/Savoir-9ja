@@ -39,12 +39,9 @@
 }
 
 header h1 {
-    text-align: center;
-    font-size: 5rem;
     position: absolute;
-    top: 48%;
-    right: 22%;
-    color: white;
+    top: 42%;
+    right: 19%;
 }
 
 

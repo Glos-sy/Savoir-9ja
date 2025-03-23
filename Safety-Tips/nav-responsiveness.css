@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk", serif;
+    /* background-color: yellow; */
+}
+
+/* HEADER SECTION STYLING */
+#nav-bar {
+    width: 85%;
+    padding: 2% 2% 2% 0.5%;
+    left: 8%;
+}
+
+#nav-bar .logo p {
+    position: relative;
+    top: 0.9rem;
+    font-size: 1.3rem;
+}
+
+#nav-bar img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4.5rem;
+  height: 3.5rem;
+}
+
+#nav-bar li a {
+    font-size: 1.75rem;
+}
+
+.a-plan-trip {
+    font-size: 1.9rem;
+    padding: 1.7% 6% 1.8% 4%;
+    border-radius: 30px;
+    background-color: #193028;
+    color: white;
+    position: relative;
+    right: -3%;
+}
